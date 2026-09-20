@@ -1,0 +1,40 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Enkel aangemelde gebruikers met een schoolaccount met bevestigd e-mailadres.
+    function schoolAccount() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.matches('.*@svsl[.]be');
+    }
+
+    function leerkracht() {
+      return schoolAccount()
+        && request.auth.token.email == 'vandaele.tom@svsl.be';
+    }
+
+    // Oefenreeksen: iedereen met een schoolaccount leest, enkel de leerkracht wijzigt.
+    match /reeksen/{reeksId} {
+      allow read: if schoolAccount();
+      allow write: if leerkracht();
+    }
+
+    // Profielen: een leerling ziet en wijzigt enkel het eigen profiel, de leerkracht leest alles.
+    match /gebruikers/{uid} {
+      allow read: if leerkracht() || (schoolAccount() && request.auth.uid == uid);
+      allow create, update: if schoolAccount()
+        && request.auth.uid == uid
+        && request.resource.data.uid == request.auth.uid;
+    }
+
+    // Resultaten: een leerling leest en schrijft enkel de eigen resultaten.
+    match /resultaten/{resultaatId} {
+      allow read: if leerkracht() || (schoolAccount() && resource.data.uid == request.auth.uid);
+      allow create, update: if schoolAccount()
+        && request.resource.data.uid == request.auth.uid
+        && resultaatId == request.auth.uid + '_' + request.resource.data.reeksId;
+      allow delete: if leerkracht();
+    }
+  }
+}
