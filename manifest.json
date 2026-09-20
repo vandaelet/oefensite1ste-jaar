@@ -1,0 +1,12 @@
+{
+  "modules": [
+    {
+      "id": "m01",
+      "titel": "Module 01 Inzicht in getallen",
+      "reeksen": [
+        { "id": "m01-1-3", "titel": "1.3 Ordenen", "bestand": "m01-1-3-ordenen.json" },
+        { "id": "m01-4-2", "titel": "4.2 Delers van een natuurlijk getal", "bestand": "m01-4-2-delers.json" }
+      ]
+    }
+  ]
+}

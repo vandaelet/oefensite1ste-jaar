@@ -1,0 +1,427 @@
+/* Ontwerp: een ruitjesschrift. Ruitjespapier op de achtergrond, een wit blad met rode kantlijn,
+   en een vinkje in de kantlijn bij elke reeks die af is. */
+
+:root {
+  --papier: #f4f8fc;
+  --ruit: #d9e5f2;
+  --blad-rand: #c9d8ea;
+  --inkt: #16243f;
+  --inkt-zacht: #4f5f7b;
+  --blauw: #2250d9;
+  --blauw-donker: #1a3fae;
+  --blauw-licht: #e9effe;
+  --markeer: #ffe066;
+  --markeer-licht: #fff5c7;
+  --kantlijn: #e4574f;
+  --juist: #11784a;
+  --juist-licht: #dcf3e6;
+  --fout: #b0302d;
+  --fout-licht: #fbe4e2;
+
+  --tekst: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --kop: "Bricolage Grotesque", "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+
+  --pad-links: 3.75rem;
+  --kantlijn-x: 2.75rem;
+  --vink-x: 0.6rem;
+}
+
+@media (max-width: 34rem) {
+  :root {
+    --pad-links: 2.9rem;
+    --kantlijn-x: 1.9rem;
+    --vink-x: 0.25rem;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--tekst);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: var(--inkt);
+  background-color: var(--papier);
+  background-image:
+    linear-gradient(var(--ruit) 1px, transparent 1px),
+    linear-gradient(90deg, var(--ruit) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Bovenbalk */
+
+.topbalk {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1rem 1rem 0.9rem;
+}
+
+.merk {
+  font-family: var(--kop);
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--inkt);
+  text-decoration: none;
+  padding: 0 0.3rem;
+  background: linear-gradient(transparent 55%, var(--markeer) 55%);
+}
+
+.gebruiker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 1rem;
+  font-size: 0.95rem;
+}
+
+.gebruiker .naam { color: var(--inkt-zacht); }
+
+.link, .knop-tekst {
+  color: var(--blauw);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.knop-tekst {
+  font: inherit;
+  background: none;
+  border: 0;
+  padding: 0.35rem 0;
+  cursor: pointer;
+}
+
+.knop-tekst:hover, .link:hover { color: var(--blauw-donker); }
+
+/* Het blad */
+
+.blad {
+  position: relative;
+  max-width: 46rem;
+  margin: 0 auto 3rem;
+  padding: 2rem 1.5rem 2.5rem var(--pad-links);
+  background: #fff;
+  border: 1px solid var(--blad-rand);
+  border-radius: 6px;
+}
+
+.blad::before {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0;
+  left: var(--kantlijn-x);
+  width: 2px;
+  background: var(--kantlijn);
+  opacity: 0.75;
+}
+
+@media (max-width: 48rem) {
+  .topbalk, .blad { margin-left: 0.5rem; margin-right: 0.5rem; }
+}
+
+h1, h2 {
+  font-family: var(--kop);
+  line-height: 1.15;
+  margin: 0 0 0.75rem;
+  color: var(--inkt);
+}
+
+h1 { font-size: 2rem; font-weight: 800; }
+h2 { font-size: 1.35rem; font-weight: 800; }
+
+p { margin: 0 0 1rem; max-width: 62ch; }
+
+.intro { color: var(--inkt-zacht); }
+
+.laden, .leeg { color: var(--inkt-zacht); }
+
+/* Focus */
+
+a:focus-visible, button:focus-visible, .invul input:focus-visible {
+  outline: 3px solid var(--inkt);
+  outline-offset: 2px;
+}
+
+.optie:has(input:focus-visible) { outline: 3px solid var(--inkt); outline-offset: 1px; }
+
+/* Knoppen */
+
+.knop {
+  font: inherit;
+  font-weight: 700;
+  min-height: 2.75rem;
+  padding: 0.55rem 1.1rem;
+  color: #fff;
+  background: var(--blauw);
+  border: 2px solid var(--blauw);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.knop:hover { background: var(--blauw-donker); border-color: var(--blauw-donker); }
+.knop:disabled { opacity: 0.55; cursor: not-allowed; }
+
+.knop.secundair { color: var(--blauw); background: #fff; }
+.knop.secundair:hover { background: var(--blauw-licht); }
+
+.knop.groot { font-size: 1.1rem; padding: 0.7rem 1.5rem; }
+
+.acties {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  margin: 1.25rem 0;
+}
+
+.acties-klein { margin: 0 0 0.25rem; gap: 0.25rem 1.25rem; }
+
+.terugbalk { margin-bottom: 1rem; }
+
+/* Meldingen */
+
+.melding {
+  padding: 0.7rem 0.9rem;
+  border-left: 4px solid var(--inkt-zacht);
+  background: #f0f3f8;
+  border-radius: 4px;
+}
+
+.melding.fout { border-color: var(--fout); background: var(--fout-licht); }
+.melding.ok { border-color: var(--juist); background: var(--juist-licht); }
+
+.login { padding: 1rem 0; }
+.login .knop { margin-top: 0.5rem; }
+
+/* Overzicht van reeksen */
+
+.module { margin-top: 2rem; }
+.module:first-of-type { margin-top: 1.5rem; }
+
+.reeksen { list-style: none; margin: 0; padding: 0; }
+
+.reeks {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--ruit);
+}
+
+.reeks-tekst { display: flex; flex-direction: column; min-width: 0; }
+.reeks-tekst strong { font-weight: 700; }
+.status { font-size: 0.92rem; color: var(--inkt-zacht); }
+.status.waarschuwing { color: var(--fout); }
+
+/* Het vinkje in de kantlijn */
+
+.vinkje {
+  position: absolute;
+  left: calc(-1 * var(--pad-links) + var(--vink-x));
+  top: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-top: -0.7rem;
+  border: 2px solid var(--inkt-zacht);
+  border-radius: 5px;
+  background: #fff;
+}
+
+.vinkje.aan { background: var(--juist); border-color: var(--juist); }
+
+.vinkje.aan::after {
+  content: "";
+  position: absolute;
+  left: 0.36rem;
+  top: 0.08rem;
+  width: 0.35rem;
+  height: 0.75rem;
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+/* Vragen */
+
+.vragen {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  counter-reset: vraag;
+}
+
+.vraag {
+  position: relative;
+  counter-increment: vraag;
+  margin: 0 0 1.5rem;
+  padding: 0 0 1.5rem;
+  border-bottom: 1px solid var(--ruit);
+}
+
+.vraag::before {
+  content: counter(vraag) ".";
+  position: absolute;
+  left: calc(-1 * var(--pad-links) + var(--vink-x));
+  width: calc(var(--kantlijn-x) - var(--vink-x) - 0.3rem);
+  text-align: right;
+  font-family: var(--kop);
+  font-weight: 800;
+  color: var(--blauw);
+}
+
+.vraagtekst { font-weight: 700; margin-bottom: 0.75rem; }
+
+.hint { margin: -0.4rem 0 0.75rem; font-size: 0.92rem; color: var(--inkt-zacht); }
+
+.opties { display: grid; gap: 0.5rem; }
+.opties-kort { grid-template-columns: repeat(auto-fit, minmax(9rem, 12rem)); }
+
+.optie {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem 0.85rem;
+  border: 2px solid var(--blad-rand);
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.optie:hover { border-color: var(--blauw); }
+.optie:has(input:checked) { border-color: var(--blauw); background: var(--blauw-licht); }
+.optie input { width: 1.15rem; height: 1.15rem; accent-color: var(--blauw); flex: none; }
+.optietekst { flex: 1; }
+
+.optie.is-juist { border-color: var(--juist); background: var(--juist-licht); cursor: default; }
+.optie.is-fout { border-color: var(--fout); background: var(--fout-licht); cursor: default; }
+.optie.is-juist::after { content: "Juist"; font-weight: 700; color: var(--juist); font-size: 0.9rem; }
+.optie.is-fout::after { content: "Fout"; font-weight: 700; color: var(--fout); font-size: 0.9rem; }
+
+.invul { display: inline-flex; align-items: center; gap: 0.6rem; }
+
+.invul input {
+  font: inherit;
+  font-size: 1.1rem;
+  width: min(100%, 18rem);
+  padding: 0.55rem 0.75rem;
+  color: var(--inkt);
+  background: #fff;
+  border: 2px solid var(--blad-rand);
+  border-radius: 8px;
+}
+
+.invul input:focus { border-color: var(--blauw); }
+.invul input:disabled { background: #f4f6f9; }
+
+.terugkoppeling {
+  margin-top: 0.85rem;
+  padding: 0.7rem 0.9rem;
+  border-left: 4px solid var(--inkt-zacht);
+  border-radius: 4px;
+  background: #f0f3f8;
+}
+
+.terugkoppeling p { margin: 0 0 0.4rem; }
+.terugkoppeling p:last-child { margin-bottom: 0; }
+.oordeel { font-weight: 700; }
+.uitleg { color: var(--inkt-zacht); }
+
+.vraag.juist .terugkoppeling { border-color: var(--juist); background: var(--juist-licht); }
+.vraag.juist .oordeel { color: var(--juist); }
+.vraag.fout .terugkoppeling { border-color: var(--fout); background: var(--fout-licht); }
+.vraag.fout .oordeel { color: var(--fout); }
+
+/* Score */
+
+.uitslag {
+  margin-top: 1rem;
+  padding: 1.25rem 1.25rem 0.5rem;
+  background: var(--markeer-licht);
+  border: 2px solid var(--markeer);
+  border-radius: 8px;
+}
+
+.uitslag:focus { outline: none; }
+.uitslag h2 { font-size: 1.6rem; }
+.opslag { color: var(--inkt-zacht); }
+.opslag.gelukt { color: var(--juist); font-weight: 700; }
+.opslag.mislukt { color: var(--fout); font-weight: 700; }
+
+/* Breuken */
+
+.breuk {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 1.2;
+  margin: 0 0.15em;
+  font-size: 0.95em;
+}
+
+.breuk .teller { border-bottom: 1.5px solid currentColor; padding: 0 0.25em; }
+.breuk .noemer { padding: 0 0.25em; }
+
+/* Schakelaar (leerkrachtenpagina) */
+
+.schakelaar {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+  min-height: 2.75rem;
+  flex: none;
+}
+
+.schakelaar input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+
+.schuif {
+  position: relative;
+  width: 2.9rem;
+  height: 1.6rem;
+  border-radius: 1rem;
+  background: #aeb9cb;
+  transition: background 0.15s;
+}
+
+.schuif::after {
+  content: "";
+  position: absolute;
+  top: 0.2rem;
+  left: 0.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background: #fff;
+  transition: transform 0.15s;
+}
+
+.schakelaar input:checked + .schuif { background: var(--juist); }
+.schakelaar input:checked + .schuif::after { transform: translateX(1.3rem); }
+.schakelaar input:focus-visible + .schuif { outline: 3px solid var(--inkt); outline-offset: 2px; }
+.schakelaar input:disabled + .schuif { opacity: 0.5; }
+.schakeltekst { min-width: 3rem; font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; scroll-behavior: auto !important; }
+}

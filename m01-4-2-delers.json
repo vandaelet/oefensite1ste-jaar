@@ -1,0 +1,70 @@
+{
+  "titel": "4.2 Delers van een natuurlijk getal",
+  "intro": "Zoek delers, herken priemgetallen en noteer een getal als product van priemgetallen.",
+  "vragen": [
+    {
+      "type": "mc",
+      "vraag": "Welke getallen zijn alle delers van 15?",
+      "opties": ["1, 3, 5, 15", "3, 5", "1, 3, 5", "1, 5, 15"],
+      "juist": 0,
+      "uitleg": "15 : 1 = 15, 15 : 3 = 5, 15 : 5 = 3 en 15 : 15 = 1. Alle vier zijn opgaande delingen. Vergeet 1 en het getal zelf niet."
+    },
+    {
+      "type": "wn",
+      "vraag": "8 is een deler van 44.",
+      "juist": false,
+      "uitleg": "44 : 8 = 5 rest 4. De deling is niet opgaand, dus 8 is geen deler van 44."
+    },
+    {
+      "type": "invul",
+      "vraag": "Noteer alle delers van 14 van klein naar groot, gescheiden door komma's.",
+      "antwoorden": ["1,2,7,14"],
+      "uitleg": "14 = 1 · 14 = 2 · 7. De delers zijn dus 1, 2, 7 en 14."
+    },
+    {
+      "type": "multi",
+      "vraag": "Welke van deze getallen zijn priemgetallen?",
+      "opties": ["1", "13", "21", "31", "39"],
+      "juist": [1, 3],
+      "uitleg": "Een priemgetal heeft exact twee verschillende delers. 1 heeft er maar één. 21 = 3 · 7 en 39 = 3 · 13 hebben meer dan twee delers. 13 en 31 zijn priemgetallen."
+    },
+    {
+      "type": "wn",
+      "vraag": "Elk natuurlijk getal dat verschilt van nul, is een deler van zichzelf.",
+      "juist": true,
+      "uitleg": "Een getal gedeeld door zichzelf geeft altijd 1, zonder rest."
+    },
+    {
+      "type": "mc",
+      "vraag": "Wat is het enige even priemgetal?",
+      "opties": ["0", "2", "4", "6"],
+      "juist": 1,
+      "uitleg": "2 heeft precies twee delers: 1 en 2. Alle andere even getallen zijn ook deelbaar door 2 en hebben dus meer dan twee delers."
+    },
+    {
+      "type": "invul",
+      "vraag": "Ontbind 30 in priemfactoren. Noteer de priemgetallen van klein naar groot met een maalteken ertussen, bijvoorbeeld 2 · 3 · 7.",
+      "antwoorden": ["2·3·5", "2*3*5", "2x3x5"],
+      "uitleg": "30 : 2 = 15, 15 : 3 = 5 en 5 : 5 = 1. Dus 30 = 2 · 3 · 5."
+    },
+    {
+      "type": "mc",
+      "vraag": "Welke notatie betekent '7 is een deler van 21'?",
+      "opties": ["7 | 21", "21 | 7", "7 : 21", "7 ∈ 21"],
+      "juist": 0,
+      "uitleg": "Het symbool | lees je als 'is deler van'. De deler staat links en het getal dat je deelt staat rechts."
+    },
+    {
+      "type": "wn",
+      "vraag": "1 is een deler van elk natuurlijk getal.",
+      "juist": true,
+      "uitleg": "Elk getal gedeeld door 1 blijft hetzelfde en er is geen rest."
+    },
+    {
+      "type": "invul",
+      "vraag": "Hoeveel delers heeft het priemgetal 17?",
+      "antwoorden": ["2"],
+      "uitleg": "Een priemgetal heeft exact twee delers: 1 en het getal zelf. De delers van 17 zijn 1 en 17."
+    }
+  ]
+}
