@@ -1,0 +1,237 @@
+{
+ "titel": "4.5 Grootste gemeenschappelijke deler",
+ "intro": "Bepaal de ggd door de delers van de getallen op te sommen.",
+ "vragen": [
+  {
+   "type": "gaten",
+   "vraag": "De ggd van twee getallen is de [[1]] gemeenschappelijke [[2]] van die getallen.",
+   "antwoorden": [
+    "grootste",
+    "deler"
+   ],
+   "extra": [
+    "kleinste",
+    "veelvoud"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Noteer alle delers van 30, van klein naar groot, gescheiden door komma's.",
+   "antwoorden": [
+    "1,2,3,5,6,10,15,30"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Noteer alle delers van 45, van klein naar groot, gescheiden door komma's.",
+   "antwoorden": [
+    "1,3,5,9,15,45"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Noteer de gemeenschappelijke delers van 30 en 45, van klein naar groot, gescheiden door komma's.",
+   "antwoorden": [
+    "1,3,5,15"
+   ],
+   "uitleg": "Dit zijn de getallen die in beide lijsten voorkomen."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bepaal ggd (30, 45).",
+   "antwoorden": [
+    "15"
+   ],
+   "uitleg": "De grootste gemeenschappelijke deler is het grootste getal uit de vorige lijst."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bepaal de ggd.",
+   "velden": [
+    {
+     "label": "ggd (8, 12) =",
+     "antwoorden": [
+      "4"
+     ]
+    },
+    {
+     "label": "ggd (18, 27) =",
+     "antwoorden": [
+      "9"
+     ]
+    },
+    {
+     "label": "ggd (16, 24) =",
+     "antwoorden": [
+      "8"
+     ]
+    },
+    {
+     "label": "ggd (21, 35) =",
+     "antwoorden": [
+      "7"
+     ]
+    }
+   ],
+   "uitleg": "Som de delers van beide getallen op en zoek de grootste die in beide lijsten voorkomt."
+  },
+  {
+   "type": "mc",
+   "vraag": "Hoe bepaal je de ggd van twee getallen door opsomming?",
+   "opties": [
+    "Schrijf de delers van beide getallen op en neem de grootste gemeenschappelijke deler",
+    "Schrijf de veelvouden van beide getallen op en neem het kleinste gemeenschappelijke veelvoud",
+    "Schrijf de delers van beide getallen op en neem de kleinste gemeenschappelijke deler",
+    "Vermenigvuldig de twee getallen met elkaar"
+   ],
+   "juist": 0,
+   "uitleg": "De kleinste gemeenschappelijke deler zou altijd 1 zijn. Dat is niet interessant."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de stappen in de juiste volgorde om een ggd te bepalen.",
+   "items": [
+    "Som de delers van beide getallen op.",
+    "Zoek de gemeenschappelijke delers.",
+    "Neem de grootste gemeenschappelijke deler."
+   ]
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke ggd aan zijn waarde.",
+   "paren": [
+    [
+     "ggd (10, 15)",
+     "5"
+    ],
+    [
+     "ggd (12, 18)",
+     "6"
+    ],
+    [
+     "ggd (14, 21)",
+     "7"
+    ],
+    [
+     "ggd (20, 30)",
+     "10"
+    ],
+    [
+     "ggd (9, 16)",
+     "1"
+    ]
+   ]
+  },
+  {
+   "type": "wn",
+   "vraag": "De ggd van twee getallen is altijd kleiner dan of gelijk aan het kleinste van die twee getallen.",
+   "juist": true,
+   "uitleg": "Een deler van een getal is nooit groter dan dat getal."
+  },
+  {
+   "type": "wn",
+   "vraag": "De ggd van twee verschillende priemgetallen is 1.",
+   "juist": true,
+   "uitleg": "Een priemgetal heeft enkel 1 en zichzelf als delers. Twee verschillende priemgetallen delen dus enkel de deler 1."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bepaal ggd (48, 36).",
+   "antwoorden": [
+    "12"
+   ],
+   "uitleg": "48 en 36 hebben 12 als grootste gemeenschappelijke deler."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bepaal ggd (40, 100).",
+   "antwoorden": [
+    "20"
+   ],
+   "uitleg": "Delers van 40: 1, 2, 4, 5, 8, 10, 20, 40. De grootste die ook 100 deelt, is 20."
+  },
+  {
+   "type": "indeel",
+   "vraag": "Staat het getal in del 12, in del 18, in allebei of in geen van beide?",
+   "categorieen": [
+    "Alleen in del 12",
+    "Alleen in del 18",
+    "In allebei",
+    "In geen van beide"
+   ],
+   "items": [
+    [
+     "4",
+     0
+    ],
+    [
+     "9",
+     1
+    ],
+    [
+     "6",
+     2
+    ],
+    [
+     "5",
+     3
+    ],
+    [
+     "12",
+     0
+    ],
+    [
+     "2",
+     2
+    ]
+   ],
+   "uitleg": "del 12 = {1, 2, 3, 4, 6, 12} en del 18 = {1, 2, 3, 6, 9, 18}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een tuin van 48 m op 36 m wordt volledig betegeld met vierkante tegels. De tegels zijn zo groot mogelijk en worden niet gesneden. Hoe lang is de zijde van een tegel?",
+   "antwoorden": [
+    "12"
+   ],
+   "uitleg": "Zoek de ggd van 48 en 36.",
+   "eenheid": "m"
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Twee linten van 90 cm en 60 cm worden in gelijke stukken gesneden. De stukken zijn zo lang mogelijk en er blijft niets over.",
+   "velden": [
+    {
+     "label": "Lengte van een stuk:",
+     "antwoorden": [
+      "30"
+     ],
+     "eenheid": "cm"
+    },
+    {
+     "label": "Aantal stukken samen:",
+     "antwoorden": [
+      "5"
+     ]
+    }
+   ],
+   "uitleg": "ggd (90, 60) = 30. Het eerste lint geeft 3 stukken en het tweede 2 stukken."
+  },
+  {
+   "type": "invul",
+   "vraag": "De juf verdeelt 30 potloden en 42 gommen onder zoveel mogelijk kinderen. Elk kind krijgt evenveel potloden en evenveel gommen en er blijft niets over. Hoeveel kinderen zijn dat maximaal?",
+   "antwoorden": [
+    "6"
+   ],
+   "uitleg": "Zoek de ggd van 30 en 42."
+  },
+  {
+   "type": "invul",
+   "vraag": "Twee getallen hebben ggd 6 en kgv 36. Het ene getal is 12. Wat is het andere getal?",
+   "antwoorden": [
+    "18"
+   ],
+   "uitleg": "Het andere getal is een veelvoud van 6 en een deler van 36: 6, 12, 18 of 36. Enkel 18 geeft ggd (12, 18) = 6 en kgv (12, 18) = 36.",
+   "uitdaging": true
+  }
+ ]
+}

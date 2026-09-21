@@ -1,0 +1,229 @@
+{
+ "titel": "4.3 Priemfactorisatie",
+ "intro": "Ontbind getallen in priemfactoren door telkens te delen door het kleinste priemgetal dat lukt.",
+ "vragen": [
+  {
+   "type": "invul",
+   "vraag": "Ontbind 18 in priemfactoren. Noteer de priemfactoren van klein naar groot met een maalteken ertussen. Voorbeeld: 12 = 2 · 2 · 3.",
+   "antwoorden": [
+    "2 · 3 · 3"
+   ],
+   "uitleg": "18 : 2 = 9, 9 : 3 = 3, 3 : 3 = 1. Dus 18 = 2 · 3 · 3."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Ontbind in priemfactoren, van klein naar groot.",
+   "velden": [
+    {
+     "label": "24 =",
+     "antwoorden": [
+      "2 · 2 · 2 · 3"
+     ]
+    },
+    {
+     "label": "45 =",
+     "antwoorden": [
+      "3 · 3 · 5"
+     ]
+    },
+    {
+     "label": "60 =",
+     "antwoorden": [
+      "2 · 2 · 3 · 5"
+     ]
+    }
+   ],
+   "uitleg": "Deel telkens door het kleinste priemgetal dat lukt, tot je 1 overhoudt."
+  },
+  {
+   "type": "invul",
+   "vraag": "Ontbind 84 in priemfactoren.",
+   "antwoorden": [
+    "2 · 2 · 3 · 7"
+   ],
+   "uitleg": "84 : 2 = 42, 42 : 2 = 21, 21 : 3 = 7, 7 : 7 = 1."
+  },
+  {
+   "type": "invul",
+   "vraag": "Ontbind 150 in priemfactoren.",
+   "antwoorden": [
+    "2 · 3 · 5 · 5"
+   ],
+   "uitleg": "150 : 2 = 75, 75 : 3 = 25, 25 : 5 = 5, 5 : 5 = 1."
+  },
+  {
+   "type": "invul",
+   "vraag": "Ontbind 360 in priemfactoren.",
+   "antwoorden": [
+    "2 · 2 · 2 · 3 · 3 · 5"
+   ],
+   "uitleg": "360 = 2 · 2 · 2 · 3 · 3 · 5 want 8 · 9 · 5 = 360."
+  },
+  {
+   "type": "invul",
+   "vraag": "Ontbind 231 in priemfactoren.",
+   "antwoorden": [
+    "3 · 7 · 11"
+   ],
+   "uitleg": "231 is niet even. De cijfersom is 6, dus 3 is een deler: 231 : 3 = 77 = 7 · 11."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke ontbinding in priemfactoren is juist voor 72?",
+   "opties": [
+    "2 · 2 · 2 · 3 · 3",
+    "2 · 3 · 12",
+    "8 · 9",
+    "2 · 2 · 3 · 6"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een ontbinding in priemfactoren mogen enkel priemgetallen voorkomen. 12, 8, 9 en 6 zijn geen priemgetallen."
+  },
+  {
+   "type": "wn",
+   "vraag": "12 = 3 · 4 is een ontbinding in priemfactoren.",
+   "juist": false,
+   "uitleg": "4 is geen priemgetal. Juist is 12 = 2 · 2 · 3."
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke getallen zijn priemfactoren van 60?",
+   "opties": [
+    "2",
+    "3",
+    "5",
+    "4",
+    "6",
+    "10"
+   ],
+   "juist": [
+    0,
+    1,
+    2
+   ],
+   "uitleg": "60 = 2 · 2 · 3 · 5. Enkel priemgetallen zijn priemfactoren."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de stappen in de juiste volgorde om 60 te ontbinden in priemfactoren.",
+   "items": [
+    "Deel 60 door 2: het quotiënt is 30",
+    "Deel 30 door 2: het quotiënt is 15",
+    "Deel 15 door 3: het quotiënt is 5",
+    "Deel 5 door 5: het quotiënt is 1"
+   ],
+   "uitleg": "Deel telkens door het kleinste priemgetal dat lukt. Stop bij quotiënt 1. Dan is 60 = 2 · 2 · 3 · 5."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Om een getal in priemfactoren te ontbinden, deel je eerst door het kleinste priemgetal [[1]], zolang dat kan. Daarna probeer je [[2]] en dan [[3]]. Je stopt wanneer het quotiënt [[4]] is.",
+   "antwoorden": [
+    "2",
+    "3",
+    "5",
+    "1"
+   ],
+   "extra": [
+    "4",
+    "0"
+   ]
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk getal aan zijn ontbinding in priemfactoren.",
+   "paren": [
+    [
+     "6",
+     "2 · 3"
+    ],
+    [
+     "20",
+     "2 · 2 · 5"
+    ],
+    [
+     "28",
+     "2 · 2 · 7"
+    ],
+    [
+     "30",
+     "2 · 3 · 5"
+    ],
+    [
+     "36",
+     "2 · 2 · 3 · 3"
+    ]
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Welk getal is 2 · 3 · 3 · 5?",
+   "antwoorden": [
+    "90"
+   ],
+   "uitleg": "2 · 3 = 6, 6 · 3 = 18 en 18 · 5 = 90."
+  },
+  {
+   "type": "invul",
+   "vraag": "Uit hoeveel priemfactoren bestaat de ontbinding van 48? Tel elke factor mee, ook als hij meer dan één keer voorkomt.",
+   "antwoorden": [
+    "5"
+   ],
+   "uitleg": "48 = 2 · 2 · 2 · 2 · 3. Dat zijn 5 priemfactoren."
+  },
+  {
+   "type": "indeel",
+   "vraag": "Is het getal een priemgetal?",
+   "categorieen": [
+    "Priemgetal",
+    "Geen priemgetal"
+   ],
+   "items": [
+    [
+     "2",
+     0
+    ],
+    [
+     "4",
+     1
+    ],
+    [
+     "7",
+     0
+    ],
+    [
+     "9",
+     1
+    ],
+    [
+     "11",
+     0
+    ],
+    [
+     "15",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk getal heeft als ontbinding in priemfactoren 2 · 2 · 3 · 7?",
+   "opties": [
+    "84",
+    "42",
+    "168",
+    "28"
+   ],
+   "juist": 0,
+   "uitleg": "2 · 2 = 4, 4 · 3 = 12 en 12 · 7 = 84."
+  },
+  {
+   "type": "invul",
+   "vraag": "Ontbind 1 001 in priemfactoren.",
+   "antwoorden": [
+    "7 · 11 · 13"
+   ],
+   "uitleg": "1 001 is niet deelbaar door 2, 3 of 5. Probeer 7: 1 001 : 7 = 143 = 11 · 13.",
+   "uitdaging": true
+  }
+ ]
+}

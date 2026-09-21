@@ -18,7 +18,7 @@
   --fout: #b0302d;
   --fout-licht: #fbe4e2;
 
-  --tekst: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --tekst: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, "Segoe UI Symbol", "Noto Sans Math", "Cambria Math", sans-serif;
   --kop: "Bricolage Grotesque", "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
 
   --pad-links: 3.75rem;
@@ -155,7 +155,7 @@ p { margin: 0 0 1rem; max-width: 62ch; }
 
 /* Focus */
 
-a:focus-visible, button:focus-visible, .invul input:focus-visible {
+a:focus-visible, button:focus-visible, .invul input:focus-visible, .veld input:focus-visible, .zone:focus-visible {
   outline: 3px solid var(--inkt);
   outline-offset: 2px;
 }
@@ -319,7 +319,7 @@ a:focus-visible, button:focus-visible, .invul input:focus-visible {
 
 .invul { display: inline-flex; align-items: center; gap: 0.6rem; }
 
-.invul input {
+.invul input, .veld input {
   font: inherit;
   font-size: 1.1rem;
   width: min(100%, 18rem);
@@ -330,8 +330,10 @@ a:focus-visible, button:focus-visible, .invul input:focus-visible {
   border-radius: 8px;
 }
 
-.invul input:focus { border-color: var(--blauw); }
-.invul input:disabled { background: #f4f6f9; }
+.invul input:focus, .veld input:focus { border-color: var(--blauw); }
+.invul input:disabled, .veld input:disabled { background: #f4f6f9; color: var(--inkt); }
+.invul input.is-juist, .veld input.is-juist { border-color: var(--juist); background: var(--juist-licht); }
+.invul input.is-fout, .veld input.is-fout { border-color: var(--fout); background: var(--fout-licht); }
 
 .terugkoppeling {
   margin-top: 0.85rem;
@@ -425,3 +427,125 @@ a:focus-visible, button:focus-visible, .invul input:focus-visible {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
+
+/* Uitdaging */
+
+.badge {
+  display: inline-block;
+  margin-right: 0.6rem;
+  padding: 0.05rem 0.7rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--inkt);
+  background: var(--markeer);
+  border-radius: 999px;
+  vertical-align: 1px;
+}
+
+/* Meerdere invulvakjes */
+
+.velden { display: grid; gap: 0.6rem; }
+.veld { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.8rem; }
+.veldlabel { min-width: 8rem; }
+.veld input { width: min(100%, 12rem); }
+
+/* Sleepoefeningen */
+
+.plaats { display: grid; gap: 0.9rem; }
+.plaats-hint { margin: 0; }
+
+.bank {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 3.6rem;
+  padding: 0.6rem;
+  background: #f4f8fd;
+  border: 2px dashed var(--blad-rand);
+  border-radius: 10px;
+}
+
+.bank:empty::before {
+  content: "Alle blokjes zijn geplaatst.";
+  color: var(--inkt-zacht);
+  font-size: 0.92rem;
+}
+
+.chip {
+  font: inherit;
+  font-weight: 700;
+  min-height: 2.5rem;
+  padding: 0.35rem 0.85rem;
+  color: var(--inkt);
+  background: #fff;
+  border: 2px solid var(--inkt-zacht);
+  border-radius: 8px;
+  box-shadow: 0 2px 0 var(--blad-rand);
+  cursor: grab;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.chip:hover { border-color: var(--blauw); }
+.chip.gekozen { background: var(--markeer); border-color: var(--inkt); }
+.chip.sleept { opacity: 0.3; }
+
+.chip.spook {
+  position: fixed;
+  z-index: 1000;
+  margin: 0;
+  pointer-events: none;
+  cursor: grabbing;
+  box-shadow: 0 10px 20px rgba(22, 36, 63, 0.28);
+  transform: rotate(-2deg);
+}
+
+.chip:disabled { cursor: default; color: var(--inkt); }
+.chip.is-juist { background: var(--juist-licht); border-color: var(--juist); }
+.chip.is-fout { background: var(--fout-licht); border-color: var(--fout); }
+.chip.is-juist::before { content: "\2713\00a0"; color: var(--juist); }
+.chip.is-fout::before { content: "\2717\00a0"; color: var(--fout); }
+
+.zone {
+  display: flex;
+  align-items: center;
+  min-height: 3.2rem;
+  padding: 0.35rem;
+  background: #fff;
+  border: 2px dashed var(--inkt-zacht);
+  border-radius: 10px;
+}
+
+.zone-inhoud { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.zone.doel, .bank.doel { border-color: var(--blauw); background: var(--blauw-licht); }
+.zone.boven, .bank.boven { border-style: solid; border-color: var(--blauw); background: #d4e0ff; }
+.zone.is-juist { border-style: solid; border-color: var(--juist); }
+.zone.is-fout { border-style: solid; border-color: var(--fout); }
+
+/* sorteren: genummerde plaatsen naast elkaar */
+.slots { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.slot { display: flex; flex-direction: column; gap: 0.2rem; }
+.slot .zone { min-width: 5.5rem; justify-content: center; }
+.zone-label { font-size: 0.9rem; font-weight: 700; color: var(--inkt-zacht); }
+
+/* koppelen: term links, plaats rechts */
+.rijen { display: grid; gap: 0.5rem; }
+.rij { display: grid; grid-template-columns: minmax(7rem, 36%) 1fr; gap: 0.75rem; align-items: center; }
+.rij-label { font-weight: 700; }
+
+@media (max-width: 34rem) {
+  .rij { grid-template-columns: 1fr; gap: 0.25rem; margin-bottom: 0.4rem; }
+}
+
+/* indelen: groepen naast elkaar */
+.bakken { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0.75rem; }
+.bak-kop { font-family: var(--kop); font-size: 1rem; font-weight: 800; margin: 0 0 0.35rem; }
+.zone-bak { align-items: flex-start; min-height: 6rem; }
+
+/* gaten in een zin */
+.gaten-tekst { font-weight: 700; line-height: 2.9; }
+.gat { display: inline-block; vertical-align: middle; line-height: 1.2; margin: 0 0.15rem; }
+.zone-gat { display: inline-flex; min-width: 6rem; min-height: 2.7rem; }

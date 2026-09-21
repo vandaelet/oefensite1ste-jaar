@@ -1,0 +1,241 @@
+{
+ "titel": "6.3 Breuken optellen en aftrekken",
+ "intro": "Tel breuken op en trek ze af, met gelijknamige en niet-gelijknamige breuken.",
+ "vragen": [
+  {
+   "type": "sorteer",
+   "vraag": "Zet de stappen in de juiste volgorde om breuken op te tellen.",
+   "items": [
+    "Vereenvoudig de breuken indien nuttig.",
+    "Maak de breuken gelijknamig.",
+    "Tel de tellers op en behoud de noemer.",
+    "Vereenvoudig het resultaat indien mogelijk."
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken {2/7} + {3/7}. Noteer je antwoord als 3/4.",
+   "antwoorden": [
+    "5/7"
+   ],
+   "uitleg": "Gelijknamige breuken: tel de tellers op en behoud de noemer."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken {1/2} + {1/3}.",
+   "antwoorden": [
+    "5/6"
+   ],
+   "uitleg": "{3/6} + {2/6} = {5/6}."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken en noteer je antwoord als 3/4.",
+   "velden": [
+    {
+     "label": "{3/4} + {1/6} =",
+     "antwoorden": [
+      "11/12"
+     ]
+    },
+    {
+     "label": "{2/5} + {3/10} =",
+     "antwoorden": [
+      "7/10"
+     ]
+    },
+    {
+     "label": "{5/6} + {7/12} =",
+     "antwoorden": [
+      "17/12"
+     ]
+    },
+    {
+     "label": "{1/8} + {3/4} =",
+     "antwoorden": [
+      "7/8"
+     ]
+    }
+   ],
+   "uitleg": "Maak eerst gelijknamig. Vereenvoudig indien mogelijk."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken en noteer je antwoord als 3/4.",
+   "velden": [
+    {
+     "label": "{5/6} − {1/3} =",
+     "antwoorden": [
+      "1/2"
+     ]
+    },
+    {
+     "label": "{7/8} − {1/4} =",
+     "antwoorden": [
+      "5/8"
+     ]
+    },
+    {
+     "label": "{11/12} − {1/4} =",
+     "antwoorden": [
+      "2/3"
+     ]
+    },
+    {
+     "label": "{3/4} − {2/3} =",
+     "antwoorden": [
+      "1/12"
+     ]
+    }
+   ],
+   "uitleg": "Maak eerst gelijknamig en trek dan de tellers af."
+  },
+  {
+   "type": "mc",
+   "vraag": "Wat is {2/3} − {1/2}?",
+   "opties": [
+    "{1/6}",
+    "{1/1}",
+    "{1/2}",
+    "{1/5}"
+   ],
+   "juist": 0,
+   "uitleg": "{4/6} − {3/6} = {1/6}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken {4/6} + {2/9}. Vereenvoudig je antwoord, bijvoorbeeld 3/4.",
+   "antwoorden": [
+    "8/9"
+   ],
+   "uitleg": "{4/6} = {2/3} = {6/9}. Dan {6/9} + {2/9} = {8/9}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Van een plank zaagt Ann eerst een vijfde af en daarna een derde van de oorspronkelijke plank. Welk deel van de plank blijft over? Noteer als 3/4.",
+   "antwoorden": [
+    "7/15"
+   ],
+   "uitleg": "1 − {1/5} − {1/3} = {15/15} − {3/15} − {5/15} = {7/15}."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Tom eet {1/4} van een taart en Lisa eet {2/5} van dezelfde taart. Noteer je antwoorden als 3/4.",
+   "velden": [
+    {
+     "label": "Samen aten ze",
+     "antwoorden": [
+      "13/20"
+     ]
+    },
+    {
+     "label": "Er blijft over",
+     "antwoorden": [
+      "7/20"
+     ]
+    }
+   ],
+   "uitleg": "{5/20} + {8/20} = {13/20}. Er blijft {20/20} − {13/20} = {7/20} over."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Bij het optellen van gelijknamige breuken tel je de [[1]] op en behoud je de [[2]].",
+   "antwoorden": [
+    "tellers",
+    "noemer"
+   ],
+   "extra": [
+    "noemers",
+    "teller"
+   ]
+  },
+  {
+   "type": "wn",
+   "vraag": "{3/5} + {4/5} = {7/10}",
+   "juist": false,
+   "uitleg": "Bij het optellen behoud je de noemer. Het juiste antwoord is {7/5}."
+  },
+  {
+   "type": "wn",
+   "vraag": "De som van twee positieve breuken kan groter zijn dan 1.",
+   "juist": true,
+   "uitleg": "Bijvoorbeeld {3/4} + {3/4} = {3/2}."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke bewerking aan haar resultaat.",
+   "paren": [
+    [
+     "{1/2} + {1/4}",
+     "{3/4}"
+    ],
+    [
+     "{5/6} − {1/2}",
+     "{1/3}"
+    ],
+    [
+     "{2/3} + {1/6}",
+     "{5/6}"
+    ],
+    [
+     "{7/10} − {1/5}",
+     "{1/2}"
+    ],
+    [
+     "{1/3} + {1/4}",
+     "{7/12}"
+    ]
+   ],
+   "extra": [
+    "{2/3}"
+   ]
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de uitkomsten van klein naar groot.",
+   "items": [
+    "{3/4} − {1/2}",
+    "{1/6} + {1/6}",
+    "{2/3} + {1/12}",
+    "{1/2} + {1/3}"
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "Wat is {5/4} − {3/8}?",
+   "opties": [
+    "{7/8}",
+    "{2/4}",
+    "{1/2}",
+    "{2/12}"
+   ],
+   "juist": 0,
+   "uitleg": "{10/8} − {3/8} = {7/8}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul aan: {3/8} + ? = {7/8}. Noteer als 3/4.",
+   "antwoorden": [
+    "1/2"
+   ],
+   "uitleg": "{7/8} − {3/8} = {4/8} = {1/2}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een mengsel bevat {2/5} liter sap en {3/4} liter water. Hoeveel liter mengsel is dat? Noteer als 3/4.",
+   "antwoorden": [
+    "23/20"
+   ],
+   "uitleg": "{8/20} + {15/20} = {23/20}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken {3/4} − {1/3} + {1/6}. Noteer als 3/4.",
+   "antwoorden": [
+    "7/12"
+   ],
+   "uitleg": "Met noemer 12: {9/12} − {4/12} + {2/12} = {7/12}.",
+   "uitdaging": true
+  }
+ ]
+}

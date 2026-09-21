@@ -1,0 +1,270 @@
+{
+ "titel": "5.1 Bewerkingen met verzamelingen",
+ "intro": "Werk met unie (∪), doorsnede (∩) en verschil (\\) van verzamelingen.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Welk symbool staat voor de unie van twee verzamelingen?",
+   "opties": [
+    "∪",
+    "∩",
+    "\\",
+    "⊂"
+   ],
+   "juist": 0,
+   "uitleg": "A ∪ B lees je als 'A unie B'."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk symbool aan zijn naam.",
+   "paren": [
+    [
+     "∪",
+     "unie"
+    ],
+    [
+     "∩",
+     "doorsnede"
+    ],
+    [
+     "\\",
+     "verschil"
+    ]
+   ],
+   "extra": [
+    "deelverzameling"
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "Op school kunnen leerlingen voetballen (A) of zwemmen (B). A = {Bram, Cato, Dries, Elise, Finn} en B = {Cato, Elise, Gust, Hanne}.\nWelke leerlingen zitten in A ∩ B?",
+   "opties": [
+    "{Cato, Elise}",
+    "{Bram, Dries, Finn}",
+    "{Gust, Hanne}",
+    "{Bram, Cato, Dries, Elise, Finn, Gust, Hanne}"
+   ],
+   "juist": 0,
+   "uitleg": "De doorsnede bevat de elementen die in A én in B zitten: Cato en Elise."
+  },
+  {
+   "type": "indeel",
+   "vraag": "A = {Bram, Cato, Dries, Elise, Finn} en B = {Cato, Elise, Gust, Hanne}. Ilse doet aan geen van beide. Waar hoort elke leerling thuis?",
+   "categorieen": [
+    "Enkel in A",
+    "In A én B",
+    "Enkel in B",
+    "In geen van beide"
+   ],
+   "items": [
+    [
+     "Bram",
+     0
+    ],
+    [
+     "Cato",
+     1
+    ],
+    [
+     "Gust",
+     2
+    ],
+    [
+     "Dries",
+     0
+    ],
+    [
+     "Elise",
+     1
+    ],
+    [
+     "Hanne",
+     2
+    ],
+    [
+     "Ilse",
+     3
+    ],
+    [
+     "Finn",
+     0
+    ]
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "A = {Bram, Cato, Dries, Elise, Finn} en B = {Cato, Elise, Gust, Hanne}.\nHoeveel elementen heeft A ∪ B?",
+   "antwoorden": [
+    "7"
+   ],
+   "uitleg": "A ∪ B = {Bram, Cato, Dries, Elise, Finn, Gust, Hanne}. Cato en Elise tel je maar één keer."
+  },
+  {
+   "type": "invul",
+   "vraag": "A = {Bram, Cato, Dries, Elise, Finn} en B = {Cato, Elise, Gust, Hanne}.\nNoteer A \\ B in alfabetische volgorde, gescheiden door komma's.",
+   "antwoorden": [
+    "Bram,Dries,Finn"
+   ],
+   "uitleg": "A \\ B bevat de elementen die in A zitten maar niet in B."
+  },
+  {
+   "type": "invul",
+   "vraag": "A = {Bram, Cato, Dries, Elise, Finn} en B = {Cato, Elise, Gust, Hanne}.\nNoteer B \\ A in alfabetische volgorde, gescheiden door komma's.",
+   "antwoorden": [
+    "Gust,Hanne"
+   ],
+   "uitleg": "B \\ A bevat de elementen die in B zitten maar niet in A."
+  },
+  {
+   "type": "multi",
+   "vraag": "A = {Bram, Cato, Dries, Elise, Finn} en B = {Cato, Elise, Gust, Hanne}.\nWelke uitspraken zijn waar?",
+   "opties": [
+    "Cato ∈ A ∩ B",
+    "Gust ∈ B \\ A",
+    "Dries ∈ A ∪ B",
+    "Bram ∉ B",
+    "Gust ∈ A",
+    "Elise ∈ A \\ B",
+    "Finn ∈ A ∩ B"
+   ],
+   "juist": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "uitleg": "Elise zit in A én in B, dus niet in A \\ B. Finn zit enkel in A."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Bij de unie A ∪ B horen de elementen die in A [[1]] in B zitten. Bij de doorsnede A ∩ B horen de elementen die in A [[2]] in B zitten. Bij het verschil A \\ B horen de elementen die in A zitten [[3]] in B.",
+   "antwoorden": [
+    "of",
+    "en",
+    "maar niet"
+   ]
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke bewerking aan haar omschrijving.",
+   "paren": [
+    [
+     "A ∪ B",
+     "in A of in B"
+    ],
+    [
+     "A ∩ B",
+     "in A en in B"
+    ],
+    [
+     "A \\ B",
+     "in A maar niet in B"
+    ],
+    [
+     "B \\ A",
+     "in B maar niet in A"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "A = {1, 2, 3, 4, 5} en B = {4, 5, 6, 7}.\nWat is A ∩ B?",
+   "opties": [
+    "{4, 5}",
+    "{1, 2, 3}",
+    "{6, 7}",
+    "{1, 2, 3, 4, 5, 6, 7}"
+   ],
+   "juist": 0,
+   "uitleg": "4 en 5 zitten in beide verzamelingen."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "A = {1, 2, 3, 4, 5} en B = {4, 5, 6, 7}. Hoeveel elementen hebben deze verzamelingen?",
+   "velden": [
+    {
+     "label": "A ∪ B",
+     "antwoorden": [
+      "7"
+     ]
+    },
+    {
+     "label": "A ∩ B",
+     "antwoorden": [
+      "2"
+     ]
+    },
+    {
+     "label": "A \\ B",
+     "antwoorden": [
+      "3"
+     ]
+    },
+    {
+     "label": "B \\ A",
+     "antwoorden": [
+      "2"
+     ]
+    }
+   ],
+   "uitleg": "A ∪ B = {1, 2, 3, 4, 5, 6, 7}, A ∩ B = {4, 5}, A \\ B = {1, 2, 3} en B \\ A = {6, 7}."
+  },
+  {
+   "type": "invul",
+   "vraag": "A = {2, 4, 6, 8} en B = {4, 8, 12}.\nNoteer (A ∪ B) \\ (A ∩ B) van klein naar groot, gescheiden door komma's.",
+   "antwoorden": [
+    "2,6,12"
+   ],
+   "uitleg": "A ∪ B = {2, 4, 6, 8, 12} en A ∩ B = {4, 8}. Haal 4 en 8 weg."
+  },
+  {
+   "type": "wn",
+   "vraag": "A ∩ B = B ∩ A",
+   "juist": true,
+   "uitleg": "Bij de doorsnede maakt de volgorde niet uit."
+  },
+  {
+   "type": "wn",
+   "vraag": "A \\ B = B \\ A",
+   "juist": false,
+   "uitleg": "In dit voorbeeld: A \\ B = {Bram, Dries, Finn} en B \\ A = {Gust, Hanne}. Bij het verschil maakt de volgorde wel uit."
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke getallen zitten in 2ℕ ∩ 3ℕ?",
+   "opties": [
+    "0",
+    "6",
+    "12",
+    "18",
+    "4",
+    "9",
+    "15"
+   ],
+   "juist": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "uitleg": "Zoek getallen die zowel een veelvoud van 2 als van 3 zijn. Dat zijn de veelvouden van 6."
+  },
+  {
+   "type": "invul",
+   "vraag": "A is de verzameling van de even natuurlijke getallen en B de verzameling van de oneven natuurlijke getallen. Hoeveel elementen heeft A ∩ B?",
+   "antwoorden": [
+    "0"
+   ],
+   "uitleg": "Een natuurlijk getal is niet tegelijk even en oneven. De doorsnede heeft geen elementen."
+  },
+  {
+   "type": "invul",
+   "vraag": "In klas 1A zitten 15 leerlingen in het koor (A) en 12 leerlingen in de toneelgroep (B). 5 leerlingen zitten in allebei. Hoeveel leerlingen zitten in het koor of in de toneelgroep (A ∪ B)?",
+   "antwoorden": [
+    "22"
+   ],
+   "uitleg": "Tel je 15 + 12, dan tel je de 5 leerlingen die in allebei zitten dubbel. Trek ze één keer af: 15 + 12 − 5 = 22.",
+   "uitdaging": true
+  }
+ ]
+}

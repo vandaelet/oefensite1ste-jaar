@@ -1,0 +1,264 @@
+{
+ "titel": "6.2 Breuken gelijknamig maken",
+ "intro": "Maak breuken gelijknamig met de kleinste gemeenschappelijke noemer.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Wat zijn gelijknamige breuken?",
+   "opties": [
+    "Breuken met dezelfde noemer",
+    "Breuken met dezelfde teller",
+    "Breuken met dezelfde waarde",
+    "Breuken zonder noemer"
+   ],
+   "juist": 0,
+   "uitleg": "Bij gelijknamige breuken is de noemer gelijk, bijvoorbeeld {3/7} en {5/7}."
+  },
+  {
+   "type": "indeel",
+   "vraag": "Zijn de breuken gelijknamig?",
+   "categorieen": [
+    "Gelijknamig",
+    "Niet gelijknamig"
+   ],
+   "items": [
+    [
+     "{3/7} en {5/7}",
+     0
+    ],
+    [
+     "{1/2} en {1/3}",
+     1
+    ],
+    [
+     "{4/9} en {2/9}",
+     0
+    ],
+    [
+     "{5/6} en {5/8}",
+     1
+    ],
+    [
+     "{7/10} en {3/10}",
+     0
+    ],
+    [
+     "{2/3} en {2/5}",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is de kleinste gemeenschappelijke noemer van {3/4} en {5/6}?",
+   "antwoorden": [
+    "12"
+   ],
+   "uitleg": "Zoek het kgv van de noemers: kgv (4, 6) = 12."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Maak {3/4} en {5/6} gelijknamig met noemer 12. Vul de tellers in.",
+   "velden": [
+    {
+     "label": "{3/4} = ?/12, teller:",
+     "antwoorden": [
+      "9"
+     ]
+    },
+    {
+     "label": "{5/6} = ?/12, teller:",
+     "antwoorden": [
+      "10"
+     ]
+    }
+   ],
+   "uitleg": "12 : 4 = 3, dus 3 · 3 = 9. En 12 : 6 = 2, dus 5 · 2 = 10."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul de teller aan: {2/3} = ?/12",
+   "antwoorden": [
+    "8"
+   ],
+   "uitleg": "Vermenigvuldig teller en noemer met 4."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Vul de ontbrekende teller aan.",
+   "velden": [
+    {
+     "label": "{3/5} = ?/20",
+     "antwoorden": [
+      "12"
+     ]
+    },
+    {
+     "label": "{7/8} = ?/24",
+     "antwoorden": [
+      "21"
+     ]
+    },
+    {
+     "label": "{5/6} = ?/18",
+     "antwoorden": [
+      "15"
+     ]
+    },
+    {
+     "label": "{4/9} = ?/27",
+     "antwoorden": [
+      "12"
+     ]
+    }
+   ],
+   "uitleg": "Bereken telkens met welk getal je de noemer vermenigvuldigd hebt, en doe hetzelfde met de teller."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke breuk aan de gelijkwaardige breuk met noemer 24.",
+   "paren": [
+    [
+     "{1/2}",
+     "{12/24}"
+    ],
+    [
+     "{3/4}",
+     "{18/24}"
+    ],
+    [
+     "{5/6}",
+     "{20/24}"
+    ],
+    [
+     "{7/8}",
+     "{21/24}"
+    ],
+    [
+     "{1/3}",
+     "{8/24}"
+    ]
+   ],
+   "extra": [
+    "{5/12}"
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "Wat is de kleinste gemeenschappelijke noemer van {5/6} en {3/4}?",
+   "opties": [
+    "12",
+    "24",
+    "10",
+    "6"
+   ],
+   "juist": 0,
+   "uitleg": "kgv (6, 4) = 12. Het getal 24 is ook een gemeenschappelijke noemer, maar niet de kleinste."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Om breuken gelijknamig te maken, bepaal je het [[1]] van de noemers. Daarna pas je de [[2]] aan, zodat je [[3]] breuken krijgt.",
+   "antwoorden": [
+    "kgv",
+    "tellers",
+    "gelijkwaardige"
+   ],
+   "extra": [
+    "ggd",
+    "noemers"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is de kleinste gemeenschappelijke noemer van {5/12} en {7/18}?",
+   "antwoorden": [
+    "36"
+   ],
+   "uitleg": "kgv (12, 18) = 36."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Maak {5/12} en {7/18} gelijknamig met noemer 36. Vul de tellers in.",
+   "velden": [
+    {
+     "label": "{5/12} = ?/36, teller:",
+     "antwoorden": [
+      "15"
+     ]
+    },
+    {
+     "label": "{7/18} = ?/36, teller:",
+     "antwoorden": [
+      "14"
+     ]
+    }
+   ],
+   "uitleg": "36 : 12 = 3 en 36 : 18 = 2."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke twee breuken krijg je als je {1/4} en {2/5} gelijknamig maakt met de kleinste noemer?",
+   "opties": [
+    "{5/20} en {8/20}",
+    "{1/20} en {2/20}",
+    "{4/20} en {5/20}",
+    "{5/20} en {2/20}"
+   ],
+   "juist": 0,
+   "uitleg": "kgv (4, 5) = 20. {1/4} = {5/20} en {2/5} = {8/20}."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de breuken van klein naar groot. Maak ze eerst gelijknamig.",
+   "items": [
+    "{7/12}",
+    "{3/5}",
+    "{5/8}",
+    "{2/3}",
+    "{3/4}"
+   ],
+   "uitleg": "Met noemer 120: 70, 72, 75, 80 en 90 honderdtwintigsten."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke breuk is groter?",
+   "opties": [
+    "{3/4}",
+    "{5/7}",
+    "Ze zijn even groot",
+    "Dat kun je niet bepalen"
+   ],
+   "juist": 0,
+   "uitleg": "{5/7} = {20/28} en {3/4} = {21/28}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul <, > of = in.\n{7/9} ? {5/6}",
+   "antwoorden": [
+    "<"
+   ],
+   "uitleg": "{7/9} = {14/18} en {5/6} = {15/18}."
+  },
+  {
+   "type": "wn",
+   "vraag": "{2/3} en {4/6} zijn gelijknamige breuken.",
+   "juist": false,
+   "uitleg": "Ze hebben dezelfde waarde, maar niet dezelfde noemer."
+  },
+  {
+   "type": "wn",
+   "vraag": "Als je teller en noemer met hetzelfde getal vermenigvuldigt (verschillend van 0), verandert de waarde van de breuk niet.",
+   "juist": true,
+   "uitleg": "Je krijgt een gelijkwaardige breuk."
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is de kleinste gemeenschappelijke noemer van {1/4}, {1/6} en {1/10}?",
+   "antwoorden": [
+    "60"
+   ],
+   "uitleg": "kgv (4, 6, 10) = 60.",
+   "uitdaging": true
+  }
+ ]
+}

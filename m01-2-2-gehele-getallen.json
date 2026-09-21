@@ -1,0 +1,230 @@
+{
+ "titel": "2.2 Gehele getallen",
+ "intro": "Werk met negatieve getallen, toestandstekens en de verzameling ℤ.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Een duiker bevindt zich 12 m onder het zeeniveau. Welk getal hoort daarbij?",
+   "opties": [
+    "−12",
+    "12",
+    "0",
+    "−21"
+   ],
+   "juist": 0,
+   "uitleg": "Onder het zeeniveau staat voor een negatief getal."
+  },
+  {
+   "type": "mc",
+   "vraag": "Een parachutist zweeft 30 m boven het zeeniveau. Welk getal hoort daarbij?",
+   "opties": [
+    "30",
+    "−30",
+    "0",
+    "3"
+   ],
+   "juist": 0,
+   "uitleg": "Boven het zeeniveau is een positief getal. Het plusteken mag je weglaten."
+  },
+  {
+   "type": "wn",
+   "vraag": "Het toestandsteken van −8 is '−'.",
+   "juist": true,
+   "uitleg": "Het toestandsteken staat voor het getal: '−' bij negatieve en '+' bij positieve getallen."
+  },
+  {
+   "type": "wn",
+   "vraag": "Bij een positief getal mag je het toestandsteken '+' weglaten.",
+   "juist": true,
+   "uitleg": "+16 = 16."
+  },
+  {
+   "type": "wn",
+   "vraag": "Het getal 0 is zowel positief als negatief.",
+   "juist": true,
+   "uitleg": "+0 = 0 = −0. Het getal 0 is een bijzonder getal."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk symbool aan de juiste verzameling.",
+   "paren": [
+    [
+     "ℤ",
+     "de gehele getallen"
+    ],
+    [
+     "ℤ₀",
+     "de gehele getallen zonder nul"
+    ],
+    [
+     "ℤ⁺",
+     "de positieve gehele getallen"
+    ],
+    [
+     "ℤ⁻",
+     "de negatieve gehele getallen"
+    ]
+   ]
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de getallen van klein naar groot.",
+   "items": [
+    "−12",
+    "−7",
+    "−1",
+    "0",
+    "3",
+    "5"
+   ],
+   "uitleg": "Op de getallenas staat het kleinste getal het meest links. Hoe groter het negatieve getal (zonder teken), hoe kleiner het getal."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk getal is het kleinste?",
+   "opties": [
+    "−15",
+    "−5",
+    "0",
+    "4"
+   ],
+   "juist": 0,
+   "uitleg": "Negatieve getallen zijn kleiner dan 0. −15 ligt het verst links."
+  },
+  {
+   "type": "indeel",
+   "vraag": "Is het getal een positief geheel getal, een negatief geheel getal of geen geheel getal?",
+   "categorieen": [
+    "Positief geheel getal",
+    "Negatief geheel getal",
+    "Geen geheel getal"
+   ],
+   "items": [
+    [
+     "17",
+     0
+    ],
+    [
+     "−3",
+     1
+    ],
+    [
+     "4,5",
+     2
+    ],
+    [
+     "−100",
+     1
+    ],
+    [
+     "{1/2}",
+     2
+    ],
+    [
+     "250",
+     0
+    ]
+   ]
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke uitspraken zijn waar?",
+   "opties": [
+    "−5 ∈ ℤ",
+    "ℕ ⊂ ℤ",
+    "4 ∈ ℤ",
+    "3,5 ∉ ℤ",
+    "ℤ ⊂ ℕ",
+    "−2 ∈ ℕ",
+    "0 ∉ ℤ"
+   ],
+   "juist": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "uitleg": "Elk natuurlijk getal is een geheel getal, maar niet omgekeerd. 3,5 is geen geheel getal."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Elk natuurlijk getal is een geheel getal, dus ℕ [[1]] ℤ. Maar −3 is geen natuurlijk getal, dus ℤ [[2]] ℕ.",
+   "antwoorden": [
+    "⊂",
+    "⊄"
+   ],
+   "extra": [
+    "∈",
+    "∉"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Een duiker zit op −24 m en stijgt 10 m. Op welke hoogte zit hij nu?",
+   "antwoorden": [
+    "-14"
+   ],
+   "uitleg": "−24 + 10 = −14.",
+   "eenheid": "m"
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het grootste negatieve geheel getal?",
+   "antwoorden": [
+    "-1"
+   ],
+   "uitleg": "Het getal dat het dichtst bij 0 ligt, links van 0."
+  },
+  {
+   "type": "invul",
+   "vraag": "Het is −4 °C. Hoeveel graden moet de temperatuur stijgen om 0 °C te bereiken?",
+   "antwoorden": [
+    "4"
+   ],
+   "uitleg": "Van −4 naar 0 zijn 4 stappen.",
+   "eenheid": "graden"
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Tel de gehele getallen.",
+   "velden": [
+    {
+     "label": "Hoeveel gehele getallen liggen er tussen −3 en 4 (die twee niet meegeteld)?",
+     "antwoorden": [
+      "6"
+     ]
+    },
+    {
+     "label": "Hoeveel gehele getallen x voldoen aan −2 ≤ x ≤ 2?",
+     "antwoorden": [
+      "5"
+     ]
+    }
+   ],
+   "uitleg": "Tussen −3 en 4: −2, −1, 0, 1, 2, 3. Voor −2 ≤ x ≤ 2: −2, −1, 0, 1, 2."
+  },
+  {
+   "type": "wn",
+   "vraag": "Er bestaat een kleinste geheel getal.",
+   "juist": false,
+   "uitleg": "Bij elk negatief getal bestaat er nog een kleiner getal. Er zijn oneindig veel negatieve gehele getallen."
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel eenheden ligt −2 van 1 verwijderd op de getallenas?",
+   "antwoorden": [
+    "3"
+   ],
+   "uitleg": "Van −2 naar 1 zijn dat 3 stappen: −2, −1, 0, 1."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een lift start op verdieping 0. Hij gaat 5 verdiepingen omhoog, daarna 8 verdiepingen omlaag en tenslotte 2 verdiepingen omhoog. Op welke verdieping staat hij nu? Noteer het getal.",
+   "antwoorden": [
+    "-1"
+   ],
+   "uitleg": "0 + 5 = 5, dan 5 − 8 = −3, dan −3 + 2 = −1.",
+   "uitdaging": true
+  }
+ ]
+}

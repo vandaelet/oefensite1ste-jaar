@@ -1,0 +1,245 @@
+{
+ "titel": "2.1 Natuurlijke getallen",
+ "intro": "Ontdek wat natuurlijke getallen zijn en leer de symbolen ℕ, ∈ en ∉ gebruiken.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Wat is een natuurlijk getal?",
+   "opties": [
+    "Een getal dat je bekomt als resultaat van een telling",
+    "Een getal met een komma",
+    "Een getal dat groter is dan 0",
+    "Een getal met een minteken"
+   ],
+   "juist": 0,
+   "uitleg": "Een natuurlijk getal is een telresultaat. Ook 0 hoort erbij: je kunt 0 dingen tellen."
+  },
+  {
+   "type": "wn",
+   "vraag": "0 is een natuurlijk getal.",
+   "juist": true,
+   "uitleg": "0 is een telresultaat en dus een natuurlijk getal."
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke getallen zijn natuurlijke getallen?",
+   "opties": [
+    "0",
+    "17",
+    "250",
+    "−3",
+    "4,5",
+    "{1/2}"
+   ],
+   "juist": [
+    0,
+    1,
+    2
+   ],
+   "uitleg": "Natuurlijke getallen zijn hele getallen die je kunt tellen: 0, 1, 2, 3, …"
+  },
+  {
+   "type": "mc",
+   "vraag": "Hoe noteer je de verzameling van de natuurlijke getallen?",
+   "opties": [
+    "ℕ = {0, 1, 2, 3, …}",
+    "ℕ = {1, 2, 3, …}",
+    "ℕ = {…, −2, −1, 0, 1, 2, …}",
+    "ℕ = {0, 1, 2, 3}"
+   ],
+   "juist": 0,
+   "uitleg": "De drie puntjes tonen dat de lijst oneindig doorgaat. Het getal 0 staat er wel in."
+  },
+  {
+   "type": "mc",
+   "vraag": "Wat betekent het symbool ℕ₀?",
+   "opties": [
+    "de verzameling van de natuurlijke getallen zonder nul",
+    "de verzameling van de natuurlijke getallen met nul",
+    "de verzameling van de negatieve getallen",
+    "de verzameling van de gehele getallen"
+   ],
+   "juist": 0,
+   "uitleg": "Het kleine nulletje geeft aan dat het getal 0 niet meedoet."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk symbool aan hoe je het leest.",
+   "paren": [
+    [
+     "ℕ",
+     "de verzameling van de natuurlijke getallen"
+    ],
+    [
+     "ℕ₀",
+     "de verzameling van de natuurlijke getallen zonder nul"
+    ],
+    [
+     "∈",
+     "is een element van"
+    ],
+    [
+     "∉",
+     "is geen element van"
+    ]
+   ]
+  },
+  {
+   "type": "indeel",
+   "vraag": "Behoort het getal tot ℕ?",
+   "categorieen": [
+    "Behoort tot ℕ",
+    "Behoort niet tot ℕ"
+   ],
+   "items": [
+    [
+     "8",
+     0
+    ],
+    [
+     "0",
+     0
+    ],
+    [
+     "−4",
+     1
+    ],
+    [
+     "2,5",
+     1
+    ],
+    [
+     "1 000",
+     0
+    ],
+    [
+     "{1/3}",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke uitspraken zijn waar?",
+   "opties": [
+    "12 ∈ ℕ",
+    "0 ∈ ℕ",
+    "−7 ∉ ℕ",
+    "4,2 ∉ ℕ",
+    "0 ∉ ℕ",
+    "−1 ∈ ℕ",
+    "{1/2} ∈ ℕ"
+   ],
+   "juist": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "uitleg": "12 en 0 zijn natuurlijke getallen. −7, 4,2 en {1/2} zijn dat niet."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Het getal 6 is een [[1]] van ℕ. We noteren 6 [[2]] ℕ. Het getal −6 [[3]] ℕ.",
+   "antwoorden": [
+    "element",
+    "∈",
+    "∉"
+   ],
+   "extra": [
+    "deelverzameling"
+   ]
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de natuurlijke getallen in de volgorde waarin je ze op de getallenas tegenkomt, van links naar rechts.",
+   "items": [
+    "0",
+    "5",
+    "12",
+    "17",
+    "31"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het kleinste natuurlijke getal?",
+   "antwoorden": [
+    "0"
+   ],
+   "uitleg": "Het kleinste telresultaat is 0."
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het kleinste natuurlijke getal dat uit drie cijfers bestaat?",
+   "antwoorden": [
+    "100"
+   ],
+   "uitleg": "Het eerste getal van drie cijfers is 100."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk getal is geen element van ℕ₀?",
+   "opties": [
+    "0",
+    "1",
+    "25",
+    "1 000"
+   ],
+   "juist": 0,
+   "uitleg": "ℕ₀ is de verzameling van de natuurlijke getallen zonder nul."
+  },
+  {
+   "type": "wn",
+   "vraag": "Er zijn oneindig veel natuurlijke getallen.",
+   "juist": true,
+   "uitleg": "Bij elk natuurlijk getal kun je 1 optellen en zo een groter getal maken."
+  },
+  {
+   "type": "wn",
+   "vraag": "Elk natuurlijk getal heeft een opvolger die ook een natuurlijk getal is.",
+   "juist": true,
+   "uitleg": "De opvolger van een natuurlijk getal is dat getal plus 1."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Tel de natuurlijke getallen.",
+   "velden": [
+    {
+     "label": "Hoeveel natuurlijke getallen liggen er tussen 4 en 10 (4 en 10 niet meegeteld)?",
+     "antwoorden": [
+      "5"
+     ]
+    },
+    {
+     "label": "Hoeveel natuurlijke getallen zijn kleiner dan 7?",
+     "antwoorden": [
+      "7"
+     ]
+    }
+   ],
+   "uitleg": "Tussen 4 en 10: 5, 6, 7, 8, 9. Kleiner dan 7: 0, 1, 2, 3, 4, 5, 6. Vergeet 0 niet."
+  },
+  {
+   "type": "mc",
+   "vraag": "In het venndiagram van ℕ staan de getallen 0, 1, 2, 3, … Welk getal mag je er NIET in plaatsen?",
+   "opties": [
+    "−2",
+    "15",
+    "0",
+    "300"
+   ],
+   "juist": 0,
+   "uitleg": "−2 is geen natuurlijk getal, dus −2 ∉ ℕ."
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel natuurlijke getallen kleiner dan 100 hebben als laatste cijfer 7?",
+   "antwoorden": [
+    "10"
+   ],
+   "uitleg": "Het zijn 7, 17, 27, 37, 47, 57, 67, 77, 87 en 97. Dat zijn 10 getallen.",
+   "uitdaging": true
+  }
+ ]
+}

@@ -1,77 +1,244 @@
 {
-  "titel": "1.3 Ordenen",
-  "intro": "Vergelijk getallen en gebruik de symbolen =, ≠, <, >, ≤ en ≥ correct.",
-  "vragen": [
+ "titel": "1.3 Ordenen",
+ "intro": "Vergelijk getallen en gebruik de symbolen =, ≠, <, >, ≤ en ≥ correct.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Welk symbool hoort op de plaats van het vraagteken?\n0,7 ? 0,65",
+   "opties": [
+    ">",
+    "<",
+    "="
+   ],
+   "juist": 0,
+   "uitleg": "Schrijf beide getallen met evenveel cijfers na de komma: 0,70 en 0,65. 70 honderdsten is meer dan 65 honderdsten."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke uitspraak is waar?",
+   "opties": [
+    "9 ≤ 9",
+    "9 < 9",
+    "9 > 9",
+    "9 ≠ 9"
+   ],
+   "juist": 0,
+   "uitleg": "9 is gelijk aan 9. Bij ≤ ('kleiner dan of gelijk aan') volstaat het dat één van beide waar is."
+  },
+  {
+   "type": "wn",
+   "vraag": "45 ≥ 450 is een ware uitspraak.",
+   "juist": false,
+   "uitleg": "45 is kleiner dan 450 en ze zijn niet gelijk. Dus is 45 ≥ 450 een onware uitspraak."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk van deze getallen is het grootste?",
+   "opties": [
+    "4,9",
+    "4,09",
+    "4,10",
+    "4,089"
+   ],
+   "juist": 0,
+   "uitleg": "Alle getallen beginnen met 4. Kijk naar de tienden: 4,9 heeft 9 tienden, de andere hebben 0 of 1 tiende."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul < , > of = in.\n{3/5} ? {2/3}",
+   "antwoorden": [
+    "<"
+   ],
+   "uitleg": "Maak de breuken gelijknamig: {3/5} = {9/15} en {2/3} = {10/15}. Omdat 9 kleiner is dan 10, is {3/5} < {2/3}."
+  },
+  {
+   "type": "multi",
+   "vraag": "Duid alle ware uitspraken aan.",
+   "opties": [
+    "12 ≥ 12",
+    "{1/2} = 0,5",
+    "0,25 < {1/3}",
+    "0,3 > 0,30",
+    "100 ≤ 99"
+   ],
+   "juist": [
+    0,
+    1,
+    2
+   ],
+   "uitleg": "0,3 en 0,30 zijn gelijk. 100 is groter dan 99. Bij {1/3} = 0,333… klopt 0,25 < {1/3}."
+  },
+  {
+   "type": "mc",
+   "vraag": "Hoe noteer je 'x is kleiner dan of gelijk aan 8'?",
+   "opties": [
+    "x ≤ 8",
+    "x < 8",
+    "x ≥ 8",
+    "x ≠ 8"
+   ],
+   "juist": 0,
+   "uitleg": "Het symbool ≤ lees je als 'is kleiner dan of gelijk aan'."
+  },
+  {
+   "type": "invul",
+   "vraag": "Welk getal is het kleinste?\n7,3   7,03   7,30   7,003",
+   "antwoorden": [
+    "7,003"
+   ],
+   "uitleg": "Schrijf ze met drie cijfers na de komma: 7,300 / 7,030 / 7,300 / 7,003."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke rangschikking van klein naar groot is juist?",
+   "opties": [
+    "0,06 < 0,6 < 0,606 < 0,66",
+    "0,06 < 0,6 < 0,66 < 0,606",
+    "0,6 < 0,06 < 0,606 < 0,66",
+    "0,66 < 0,606 < 0,6 < 0,06"
+   ],
+   "juist": 0,
+   "uitleg": "Schrijf ze met drie cijfers na de komma: 0,060 / 0,600 / 0,606 / 0,660."
+  },
+  {
+   "type": "wn",
+   "vraag": "De uitspraak 2 < 6 is een ware uitspraak.",
+   "juist": true,
+   "uitleg": "2 is kleiner dan 6, dus de uitspraak klopt."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet van klein naar groot.",
+   "items": [
+    "0,25",
+    "{1/2}",
+    "0,6",
+    "{3/4}",
+    "1"
+   ],
+   "uitleg": "Zet alles om naar kommagetallen: 0,25 / 0,5 / 0,6 / 0,75 / 1."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk symbool aan zijn betekenis.",
+   "paren": [
+    [
+     "<",
+     "is kleiner dan"
+    ],
+    [
+     ">",
+     "is groter dan"
+    ],
+    [
+     "≤",
+     "is kleiner dan of gelijk aan"
+    ],
+    [
+     "≥",
+     "is groter dan of gelijk aan"
+    ],
+    [
+     "≠",
+     "is niet gelijk aan"
+    ]
+   ]
+  },
+  {
+   "type": "indeel",
+   "vraag": "Is de uitspraak waar of onwaar?",
+   "categorieen": [
+    "Waar",
+    "Onwaar"
+   ],
+   "items": [
+    [
+     "8 > 5",
+     0
+    ],
+    [
+     "3 ≥ 3",
+     0
+    ],
+    [
+     "0,4 < 0,04",
+     1
+    ],
+    [
+     "{1/4} = 0,25",
+     0
+    ],
+    [
+     "12 ≠ 12",
+     1
+    ],
+    [
+     "7 ≤ 6",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "gaten",
+   "vraag": "De uitspraak 5 < 3 is een [[1]] uitspraak. De uitspraak 4 ≥ 4 is een [[2]] uitspraak.",
+   "antwoorden": [
+    "onware",
+    "ware"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel natuurlijke getallen x voldoen aan 3 < x ≤ 8?",
+   "antwoorden": [
+    "5"
+   ],
+   "uitleg": "Het gaat om 4, 5, 6, 7 en 8. Dat zijn 5 getallen."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Noteer het natuurlijke getal x.",
+   "velden": [
     {
-      "type": "mc",
-      "vraag": "Welk symbool hoort op de plaats van het vraagteken?\n0,7 ? 0,65",
-      "opties": ["<", ">", "="],
-      "juist": 1,
-      "uitleg": "Schrijf beide getallen met evenveel cijfers na de komma: 0,70 en 0,65. Omdat 70 honderdsten meer is dan 65 honderdsten, is 0,7 > 0,65."
+     "label": "Kleinste x met x > 99:",
+     "antwoorden": [
+      "100"
+     ]
     },
     {
-      "type": "mc",
-      "vraag": "Welke uitspraak is waar?",
-      "opties": ["9 ≤ 9", "9 < 9", "9 > 9", "9 ≠ 9"],
-      "juist": 0,
-      "uitleg": "9 is gelijk aan 9. Bij het symbool ≤ ('kleiner dan of gelijk aan') volstaat het dat één van beide waar is."
+     "label": "Kleinste x met x ≥ 250:",
+     "antwoorden": [
+      "250"
+     ]
     },
     {
-      "type": "wn",
-      "vraag": "45 ≥ 450 is een ware uitspraak.",
-      "juist": false,
-      "uitleg": "45 is kleiner dan 450, en ze zijn niet gelijk. Dus is 45 ≥ 450 een onware (valse) uitspraak."
-    },
-    {
-      "type": "mc",
-      "vraag": "Welk van deze getallen is het grootste?",
-      "opties": ["4,09", "4,9", "4,10", "4,089"],
-      "juist": 1,
-      "uitleg": "Alle getallen beginnen met 4. Kijk naar de tienden: 4,9 heeft 9 tienden en de andere getallen hebben 0 of 1 tiende."
-    },
-    {
-      "type": "invul",
-      "vraag": "Vul < , > of = in.\n{3/5} ? {2/3}",
-      "antwoorden": ["<"],
-      "uitleg": "Maak de breuken gelijknamig: {3/5} = {9/15} en {2/3} = {10/15}. Omdat 9 kleiner is dan 10, is {3/5} < {2/3}."
-    },
-    {
-      "type": "multi",
-      "vraag": "Duid alle ware uitspraken aan.",
-      "opties": ["12 ≥ 12", "0,3 > 0,30", "{1/2} = 0,5", "100 ≤ 99", "0,25 < {1/3}"],
-      "juist": [0, 2, 4],
-      "uitleg": "0,3 en 0,30 zijn gelijk, dus 0,3 > 0,30 is onwaar. 100 is groter dan 99, dus 100 ≤ 99 is onwaar. Bij {1/3} = 0,333… klopt 0,25 < {1/3}."
-    },
-    {
-      "type": "mc",
-      "vraag": "Hoe noteer je 'x is kleiner dan of gelijk aan 8'?",
-      "opties": ["x < 8", "x ≤ 8", "x ≥ 8", "x ≠ 8"],
-      "juist": 1,
-      "uitleg": "Het symbool ≤ lees je als 'is kleiner dan of gelijk aan'."
-    },
-    {
-      "type": "invul",
-      "vraag": "Welk getal is het kleinste?\n7,3   7,03   7,30   7,003",
-      "antwoorden": ["7,003"],
-      "uitleg": "Schrijf ze met drie cijfers na de komma: 7,300 / 7,030 / 7,300 / 7,003. Het kleinste is 7,003."
-    },
-    {
-      "type": "mc",
-      "vraag": "Welke rangschikking van klein naar groot is juist?",
-      "opties": [
-        "0,06 < 0,6 < 0,606 < 0,66",
-        "0,06 < 0,6 < 0,66 < 0,606",
-        "0,6 < 0,06 < 0,606 < 0,66",
-        "0,66 < 0,606 < 0,6 < 0,06"
-      ],
-      "juist": 0,
-      "uitleg": "Schrijf ze met drie cijfers na de komma: 0,060 / 0,600 / 0,606 / 0,660."
-    },
-    {
-      "type": "wn",
-      "vraag": "De uitspraak 2 < 6 is een ware uitspraak.",
-      "juist": true,
-      "uitleg": "2 is kleiner dan 6, dus de uitspraak klopt."
+     "label": "Grootste x met x < 40:",
+     "antwoorden": [
+      "39"
+     ]
     }
-  ]
+   ],
+   "uitleg": "Bij > en < hoort het getal zelf er niet bij. Bij ≥ en ≤ wel."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke uitspraak is onwaar?",
+   "opties": [
+    "0,5 > {2/3}",
+    "{1/2} < {3/4}",
+    "2,5 ≥ 2,50",
+    "7 ≠ 7,1"
+   ],
+   "juist": 0,
+   "uitleg": "{2/3} = 0,666… en dat is groter dan 0,5. Dus 0,5 > {2/3} klopt niet."
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel natuurlijke getallen zijn groter dan 45 en kleiner dan of gelijk aan 72?",
+   "antwoorden": [
+    "27"
+   ],
+   "uitleg": "Het gaat om 46 tot en met 72. Dat zijn 72 − 45 = 27 getallen.",
+   "uitdaging": true
+  }
+ ]
 }

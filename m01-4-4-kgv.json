@@ -1,0 +1,205 @@
+{
+ "titel": "4.4 Kleinste gemeenschappelijk veelvoud",
+ "intro": "Bepaal het kgv door de veelvouden van de getallen op te sommen.",
+ "vragen": [
+  {
+   "type": "gaten",
+   "vraag": "Het kgv van twee getallen is het [[1]] gemeenschappelijk veelvoud dat verschillend is van [[2]].",
+   "antwoorden": [
+    "kleinste",
+    "0"
+   ],
+   "extra": [
+    "grootste",
+    "1"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Noteer de eerste zes veelvouden van 6, gescheiden door komma's. Begin bij 0.",
+   "antwoorden": [
+    "0,6,12,18,24,30"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Bepaal kgv (4, 6) door de veelvouden op te sommen.",
+   "antwoorden": [
+    "12"
+   ],
+   "uitleg": "4ℕ = {0, 4, 8, 12, …} en 6ℕ = {0, 6, 12, …}. Het eerste gemeenschappelijke veelvoud, verschillend van 0, is 12."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bepaal het kgv.",
+   "velden": [
+    {
+     "label": "kgv (3, 5) =",
+     "antwoorden": [
+      "15"
+     ]
+    },
+    {
+     "label": "kgv (6, 8) =",
+     "antwoorden": [
+      "24"
+     ]
+    },
+    {
+     "label": "kgv (10, 15) =",
+     "antwoorden": [
+      "30"
+     ]
+    },
+    {
+     "label": "kgv (9, 12) =",
+     "antwoorden": [
+      "36"
+     ]
+    }
+   ],
+   "uitleg": "Som de veelvouden van het grootste getal op tot je een veelvoud van het andere getal vindt."
+  },
+  {
+   "type": "mc",
+   "vraag": "Hoe bepaal je het kgv van twee getallen door opsomming?",
+   "opties": [
+    "Schrijf de veelvouden van beide getallen op en neem het kleinste gemeenschappelijke veelvoud dat niet nul is",
+    "Schrijf de delers van beide getallen op en neem de grootste gemeenschappelijke deler",
+    "Schrijf de veelvouden van beide getallen op en neem het grootste gemeenschappelijke veelvoud",
+    "Vermenigvuldig altijd de twee getallen met elkaar"
+   ],
+   "juist": 0,
+   "uitleg": "Vermenigvuldigen geeft wel een gemeenschappelijk veelvoud, maar niet altijd het kleinste. Bijvoorbeeld 4 · 6 = 24 terwijl kgv (4, 6) = 12."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de stappen in de juiste volgorde om kgv (4, 10) te bepalen.",
+   "items": [
+    "Som de veelvouden van beide getallen op.",
+    "Zoek de gemeenschappelijke veelvouden.",
+    "Neem het kleinste veelvoud dat niet nul is."
+   ],
+   "uitleg": "4ℕ = {0, 4, 8, 12, 16, 20, …} en 10ℕ = {0, 10, 20, …}. Gemeenschappelijk: 0, 20, 40, … Dus kgv (4, 10) = 20."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk kgv aan zijn waarde.",
+   "paren": [
+    [
+     "kgv (2, 3)",
+     "6"
+    ],
+    [
+     "kgv (4, 5)",
+     "20"
+    ],
+    [
+     "kgv (6, 9)",
+     "18"
+    ],
+    [
+     "kgv (8, 12)",
+     "24"
+    ],
+    [
+     "kgv (10, 25)",
+     "50"
+    ]
+   ],
+   "extra": [
+    "12"
+   ]
+  },
+  {
+   "type": "wn",
+   "vraag": "Het kgv van twee getallen is altijd groter dan of gelijk aan het grootste van die twee getallen.",
+   "juist": true,
+   "uitleg": "Het kgv is een veelvoud van beide getallen, dus minstens zo groot als het grootste getal."
+  },
+  {
+   "type": "wn",
+   "vraag": "kgv (5, 10) = 50",
+   "juist": false,
+   "uitleg": "10 is al een veelvoud van 5 en van 10. Dus kgv (5, 10) = 10."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bepaal kgv (7, 9).",
+   "antwoorden": [
+    "63"
+   ],
+   "uitleg": "7 en 9 hebben geen gemeenschappelijke deler. Het kgv is dan het product: 63."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bepaal kgv (12, 18).",
+   "antwoorden": [
+    "36"
+   ],
+   "uitleg": "12ℕ = {0, 12, 24, 36, …} en 18ℕ = {0, 18, 36, …}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bepaal kgv (20, 30).",
+   "antwoorden": [
+    "60"
+   ],
+   "uitleg": "30ℕ = {0, 30, 60, …} en 60 is ook een veelvoud van 20."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een rood lichtje knippert om de 12 seconden en een groen lichtje om de 18 seconden. Nu knipperen ze samen. Na hoeveel seconden knipperen ze opnieuw samen?",
+   "antwoorden": [
+    "36"
+   ],
+   "uitleg": "Zoek het kgv van 12 en 18.",
+   "eenheid": "seconden"
+  },
+  {
+   "type": "invul",
+   "vraag": "Bus A rijdt om de 20 minuten en bus B om de 25 minuten. Om 8 u vertrekken ze samen aan de halte. Na hoeveel minuten vertrekken ze opnieuw samen?",
+   "antwoorden": [
+    "100"
+   ],
+   "uitleg": "Zoek het kgv van 20 en 25.",
+   "eenheid": "minuten"
+  },
+  {
+   "type": "invul",
+   "vraag": "Sofie gaat om de 4 dagen zwemmen en om de 6 dagen naar de turnles. Vandaag doet ze beide. Over hoeveel dagen doet ze opnieuw beide op dezelfde dag?",
+   "antwoorden": [
+    "12"
+   ],
+   "uitleg": "Zoek het kgv van 4 en 6.",
+   "eenheid": "dagen"
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke getallen zijn gemeenschappelijke veelvouden van 6 en 8?",
+   "opties": [
+    "24",
+    "48",
+    "72",
+    "12",
+    "16",
+    "36"
+   ],
+   "juist": [
+    0,
+    1,
+    2
+   ],
+   "uitleg": "12 en 36 zijn enkel veelvouden van 6. 16 is enkel een veelvoud van 8."
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het kleinste getal, verschillend van 0, dat deelbaar is door 4, door 5 én door 6?",
+   "antwoorden": [
+    "60"
+   ],
+   "uitleg": "Som de veelvouden van 6 op tot je een getal vindt dat ook deelbaar is door 4 en door 5: 60.",
+   "uitdaging": true
+  }
+ ]
+}

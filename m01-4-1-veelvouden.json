@@ -1,0 +1,221 @@
+{
+ "titel": "4.1 Veelvouden van een natuurlijk getal",
+ "intro": "Leer wat een veelvoud is en hoe je de verzameling van alle veelvouden noteert.",
+ "vragen": [
+  {
+   "type": "multi",
+   "vraag": "Welke getallen zijn natuurlijke veelvouden van 6?",
+   "opties": [
+    "0",
+    "18",
+    "42",
+    "60",
+    "16",
+    "26",
+    "64"
+   ],
+   "juist": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "uitleg": "Een veelvoud van 6 is een product van 6 met een natuurlijk getal: 0 = 6 · 0, 18 = 6 · 3, 42 = 6 · 7 en 60 = 6 · 10."
+  },
+  {
+   "type": "invul",
+   "vraag": "Noteer de eerste vijf natuurlijke veelvouden van 4, gescheiden door komma's. Begin bij 0.",
+   "antwoorden": [
+    "0,4,8,12,16"
+   ],
+   "uitleg": "4 · 0, 4 · 1, 4 · 2, 4 · 3 en 4 · 4."
+  },
+  {
+   "type": "wn",
+   "vraag": "0 is een veelvoud van elk natuurlijk getal.",
+   "juist": true,
+   "uitleg": "0 = n · 0, voor elk natuurlijk getal n."
+  },
+  {
+   "type": "wn",
+   "vraag": "Elk natuurlijk getal is een veelvoud van zichzelf.",
+   "juist": true,
+   "uitleg": "n = n · 1."
+  },
+  {
+   "type": "mc",
+   "vraag": "Wat betekent 5ℕ?",
+   "opties": [
+    "de verzameling van alle natuurlijke veelvouden van 5",
+    "de verzameling van alle delers van 5",
+    "de verzameling van de natuurlijke getallen kleiner dan 5",
+    "de getallen 5, 50, 500, …"
+   ],
+   "juist": 0,
+   "uitleg": "5ℕ = {0, 5, 10, 15, …}"
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke verzameling aan het begin van haar opsomming.",
+   "paren": [
+    [
+     "3ℕ",
+     "{0, 3, 6, 9, …}"
+    ],
+    [
+     "5ℕ",
+     "{0, 5, 10, 15, …}"
+    ],
+    [
+     "10ℕ",
+     "{0, 10, 20, 30, …}"
+    ],
+    [
+     "2ℕ",
+     "{0, 2, 4, 6, …}"
+    ]
+   ]
+  },
+  {
+   "type": "indeel",
+   "vraag": "Is het getal een veelvoud van 8?",
+   "categorieen": [
+    "Veelvoud van 8",
+    "Geen veelvoud van 8"
+   ],
+   "items": [
+    [
+     "24",
+     0
+    ],
+    [
+     "40",
+     0
+    ],
+    [
+     "100",
+     1
+    ],
+    [
+     "64",
+     0
+    ],
+    [
+     "90",
+     1
+    ],
+    [
+     "56",
+     0
+    ]
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het kleinste natuurlijke veelvoud van 9 dat groter is dan 50?",
+   "antwoorden": [
+    "54"
+   ],
+   "uitleg": "9 · 5 = 45 is te klein en 9 · 6 = 54."
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het grootste natuurlijke veelvoud van 7 dat kleiner is dan 100?",
+   "antwoorden": [
+    "98"
+   ],
+   "uitleg": "7 · 14 = 98 en 7 · 15 = 105."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Een veelvoud van een natuurlijk getal is een [[1]] van dat getal met 0, 1, 2, 3, … De verzameling van alle veelvouden van 4 noteren we [[2]].",
+   "antwoorden": [
+    "product",
+    "4ℕ"
+   ],
+   "extra": [
+    "som",
+    "4"
+   ]
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet deze veelvouden van 12 van klein naar groot.",
+   "items": [
+    "12",
+    "36",
+    "60",
+    "84",
+    "120"
+   ]
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke getallen zijn zowel een veelvoud van 3 als een veelvoud van 4?",
+   "opties": [
+    "12",
+    "24",
+    "36",
+    "60",
+    "9",
+    "16",
+    "18",
+    "28"
+   ],
+   "juist": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "uitleg": "Zo'n getal is een veelvoud van 12. 9 en 18 zijn enkel veelvouden van 3. 16 en 28 zijn enkel veelvouden van 4."
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel veelvouden van 5 liggen er tussen 1 en 50, met 50 erbij?",
+   "antwoorden": [
+    "10"
+   ],
+   "uitleg": "Het zijn 5, 10, 15, 20, 25, 30, 35, 40, 45 en 50."
+  },
+  {
+   "type": "invul",
+   "vraag": "Noteer de drie kleinste veelvouden die verschillend zijn van 0 en zowel in 4ℕ als in 6ℕ zitten, gescheiden door komma's.",
+   "antwoorden": [
+    "12,24,36"
+   ],
+   "uitleg": "Zoek getallen die in beide lijsten voorkomen: 4ℕ = {0, 4, 8, 12, 16, 20, 24, …} en 6ℕ = {0, 6, 12, 18, 24, 30, 36, …}."
+  },
+  {
+   "type": "wn",
+   "vraag": "Er bestaat een grootste natuurlijk veelvoud van 5.",
+   "juist": false,
+   "uitleg": "Je kunt altijd een groter veelvoud maken door 5 op te tellen."
+  },
+  {
+   "type": "invul",
+   "vraag": "Welk veelvoud van 13 ligt het dichtst bij 100?",
+   "antwoorden": [
+    "104"
+   ],
+   "uitleg": "13 · 7 = 91 en 13 · 8 = 104. 104 is maar 4 verwijderd van 100."
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel natuurlijke veelvouden van 3 zijn er kleiner dan 20? Vergeet 0 niet.",
+   "antwoorden": [
+    "7"
+   ],
+   "uitleg": "Het zijn 0, 3, 6, 9, 12, 15 en 18."
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het kleinste getal, verschillend van 0, dat een veelvoud is van 6, van 8 én van 9?",
+   "antwoorden": [
+    "72"
+   ],
+   "uitleg": "Schrijf de veelvouden van het grootste getal op (9, 18, 27, …, 72, …) en zoek het eerste dat deelbaar is door 6 en door 8.",
+   "uitdaging": true
+  }
+ ]
+}

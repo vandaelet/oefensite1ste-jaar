@@ -4,8 +4,8 @@
 import {
   auth, db, onAuthStateChanged, meldAan, meldAf, aanmeldFoutTekst, isLeerkracht,
   collection, doc, getDocs, setDoc, updateDoc, serverTimestamp
-} from "./firebase-init.js";
-import { esc } from "./oefening-engine.js";
+} from "./firebase-init.js?v=2";
+import { esc } from "./oefening-engine.js?v=2";
 
 const app = document.getElementById("app");
 const gebruikerEl = document.getElementById("gebruiker");

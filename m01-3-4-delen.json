@@ -1,0 +1,266 @@
+{
+ "titel": "3.4 Delen van natuurlijke getallen",
+ "intro": "Oefen op deeltal, deler, quotiënt en rest, en op opgaande en niet-opgaande delingen.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "In 126 : 3 = 42 is 3 de …",
+   "opties": [
+    "deler",
+    "deeltal",
+    "quotiënt",
+    "rest"
+   ],
+   "juist": 0,
+   "uitleg": "Het getal waardoor je deelt, heet de deler."
+  },
+  {
+   "type": "gaten",
+   "vraag": "In 126 : 3 = 42 is 126 het [[1]], 3 de [[2]] en 42 het [[3]].",
+   "antwoorden": [
+    "deeltal",
+    "deler",
+    "quotiënt"
+   ],
+   "extra": [
+    "rest",
+    "product"
+   ]
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken uit het hoofd.",
+   "velden": [
+    {
+     "label": "48 : 6 =",
+     "antwoorden": [
+      "8"
+     ]
+    },
+    {
+     "label": "144 : 4 =",
+     "antwoorden": [
+      "36"
+     ]
+    },
+    {
+     "label": "81 : 9 =",
+     "antwoorden": [
+      "9"
+     ]
+    },
+    {
+     "label": "200 : 8 =",
+     "antwoorden": [
+      "25"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken: 2 856 : 12",
+   "antwoorden": [
+    "238"
+   ],
+   "uitleg": "Deel stap voor stap: 28 : 12 = 2 rest 4, dan 45 : 12 = 3 rest 9, dan 96 : 12 = 8."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Deel en noteer het quotiënt en de rest.",
+   "velden": [
+    {
+     "label": "53 : 6 quotiënt =",
+     "antwoorden": [
+      "8"
+     ]
+    },
+    {
+     "label": "53 : 6 rest =",
+     "antwoorden": [
+      "5"
+     ]
+    },
+    {
+     "label": "100 : 7 quotiënt =",
+     "antwoorden": [
+      "14"
+     ]
+    },
+    {
+     "label": "100 : 7 rest =",
+     "antwoorden": [
+      "2"
+     ]
+    }
+   ],
+   "uitleg": "53 = 6 · 8 + 5 en 100 = 7 · 14 + 2."
+  },
+  {
+   "type": "wn",
+   "vraag": "Bij een deling mag de deler nul zijn.",
+   "juist": false,
+   "uitleg": "Delen door 0 kan niet."
+  },
+  {
+   "type": "wn",
+   "vraag": "De rest is altijd kleiner dan de deler.",
+   "juist": true,
+   "uitleg": "Anders kon je nog een keer delen."
+  },
+  {
+   "type": "mc",
+   "vraag": "Een deling is opgaand als …",
+   "opties": [
+    "de rest gelijk is aan 0",
+    "het quotiënt gelijk is aan 0",
+    "de rest groter is dan de deler",
+    "de deler gelijk is aan 1"
+   ],
+   "juist": 0,
+   "uitleg": "Bij een opgaande deling blijft er niets over."
+  },
+  {
+   "type": "indeel",
+   "vraag": "Is de deling opgaand of niet-opgaand?",
+   "categorieen": [
+    "Opgaand",
+    "Niet-opgaand"
+   ],
+   "items": [
+    [
+     "36 : 4",
+     0
+    ],
+    [
+     "50 : 7",
+     1
+    ],
+    [
+     "81 : 9",
+     0
+    ],
+    [
+     "100 : 8",
+     1
+    ],
+    [
+     "72 : 6",
+     0
+    ],
+    [
+     "45 : 10",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke deling aan haar quotiënt.",
+   "paren": [
+    [
+     "96 : 8",
+     "12"
+    ],
+    [
+     "150 : 6",
+     "25"
+    ],
+    [
+     "225 : 15",
+     "15"
+    ],
+    [
+     "1 000 : 8",
+     "125"
+    ]
+   ],
+   "extra": [
+    "20"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Bij een deling is de deler 7, het quotiënt 13 en de rest 4. Wat is het deeltal?",
+   "antwoorden": [
+    "95"
+   ],
+   "uitleg": "Deeltal = deler · quotiënt + rest = 7 · 13 + 4 = 95."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul aan: 84 : ? = 12",
+   "antwoorden": [
+    "7"
+   ],
+   "uitleg": "84 : 12 = 7."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul aan: ? : 15 = 8",
+   "antwoorden": [
+    "120"
+   ],
+   "uitleg": "Het deeltal is 15 · 8 = 120."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke formule hoort bij een niet-opgaande deling?",
+   "opties": [
+    "D = d · q + r met 0 < r < d",
+    "D = d · q",
+    "D = d + q + r",
+    "D = d · q − r"
+   ],
+   "juist": 0,
+   "uitleg": "Het deeltal is de deler maal het quotiënt plus de rest."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Een pak van 250 snoepjes wordt zo eerlijk mogelijk verdeeld onder 8 kinderen.",
+   "velden": [
+    {
+     "label": "Elk kind krijgt",
+     "antwoorden": [
+      "31"
+     ],
+     "eenheid": "snoepjes"
+    },
+    {
+     "label": "Er blijven over",
+     "antwoorden": [
+      "2"
+     ],
+     "eenheid": "snoepjes"
+    }
+   ],
+   "uitleg": "250 = 8 · 31 + 2."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de quotiënten van klein naar groot.",
+   "items": [
+    "96 : 24",
+    "84 : 12",
+    "90 : 9",
+    "63 : 3",
+    "100 : 4"
+   ]
+  },
+  {
+   "type": "wn",
+   "vraag": "Als de deling 40 : 8 opgaand is, dan is 8 een deler van 40.",
+   "juist": true,
+   "uitleg": "40 : 8 = 5 zonder rest, dus 8 deelt 40."
+  },
+  {
+   "type": "invul",
+   "vraag": "Als je een getal deelt door 6, krijg je quotiënt 12 en rest 5. Welk quotiënt krijg je als je datzelfde getal deelt door 12?",
+   "antwoorden": [
+    "6"
+   ],
+   "uitleg": "Het getal is 6 · 12 + 5 = 77. En 77 : 12 = 6 rest 5, dus het quotiënt is 6.",
+   "uitdaging": true
+  }
+ ]
+}

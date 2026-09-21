@@ -1,0 +1,249 @@
+{
+ "titel": "5.2 De implicatiepijl en de equivalentiepijl",
+ "intro": "Leer redeneren met ⇒ en ⇔ en tegenvoorbeelden zoeken.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Wat betekent a ⇒ b?",
+   "opties": [
+    "Als a waar is, dan is b waar",
+    "b is waar als en slechts als a waar is",
+    "a en b zijn hetzelfde getal",
+    "a is groter dan b"
+   ],
+   "juist": 0,
+   "uitleg": "Het symbool ⇒ noem je de implicatiepijl."
+  },
+  {
+   "type": "mc",
+   "vraag": "Hoe lees je het symbool ⇔?",
+   "opties": [
+    "als en slechts als",
+    "als … dan …",
+    "of",
+    "en"
+   ],
+   "juist": 0,
+   "uitleg": "Het symbool ⇔ noem je de equivalentiepijl."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Het symbool ⇒ noem je de [[1]]. Het symbool ⇔ noem je de [[2]].",
+   "antwoorden": [
+    "implicatiepijl",
+    "equivalentiepijl"
+   ],
+   "extra": [
+    "doorsnede",
+    "unie"
+   ]
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk symbool aan hoe je het leest.",
+   "paren": [
+    [
+     "⇒",
+     "als … dan …"
+    ],
+    [
+     "⇔",
+     "als en slechts als"
+    ],
+    [
+     "∈",
+     "is een element van"
+    ],
+    [
+     "⊂",
+     "is een deelverzameling van"
+    ]
+   ]
+  },
+  {
+   "type": "indeel",
+   "vraag": "Klopt de implicatie?",
+   "categorieen": [
+    "De implicatie klopt",
+    "De implicatie klopt niet"
+   ],
+   "items": [
+    [
+     "x = 5 ⇒ x > 0",
+     0
+    ],
+    [
+     "x > 0 ⇒ x = 5",
+     1
+    ],
+    [
+     "x ∈ ℕ ⇒ x ∈ ℤ",
+     0
+    ],
+    [
+     "x ∈ ℤ ⇒ x ∈ ℕ",
+     1
+    ],
+    [
+     "x > 10 ⇒ x > 3",
+     0
+    ],
+    [
+     "x > 3 ⇒ x > 10",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "multi",
+   "vraag": "Bij welke implicaties klopt de pijl?",
+   "opties": [
+    "x < −5 ⇒ x < 0",
+    "x ∈ 6ℕ ⇒ x ∈ 3ℕ",
+    "x is een priemgetal groter dan 2 ⇒ x is oneven",
+    "x < 10 ⇒ x < 5",
+    "x ∈ 3ℕ ⇒ x ∈ 6ℕ",
+    "x ∈ ℚ ⇒ x ∈ ℤ"
+   ],
+   "juist": [
+    0,
+    1,
+    2
+   ],
+   "uitleg": "Elk veelvoud van 6 is ook een veelvoud van 3, maar niet omgekeerd (bijvoorbeeld 9)."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk getal toont aan dat 'x > 0 ⇒ x ∈ ℕ' niet klopt?",
+   "opties": [
+    "x = 0,5",
+    "x = 3",
+    "x = 25",
+    "x = 1 000"
+   ],
+   "juist": 0,
+   "uitleg": "0,5 is groter dan 0 maar geen natuurlijk getal. Zo'n voorbeeld heet een tegenvoorbeeld."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk getal toont aan dat 'x ∈ 2ℕ ⇒ x ∈ 4ℕ' niet klopt?",
+   "opties": [
+    "x = 6",
+    "x = 8",
+    "x = 12",
+    "x = 16"
+   ],
+   "juist": 0,
+   "uitleg": "6 is een veelvoud van 2, maar geen veelvoud van 4. 8, 12 en 16 zijn wel veelvouden van 4."
+  },
+  {
+   "type": "wn",
+   "vraag": "Als a ⇒ b waar is, dan is b ⇒ a altijd ook waar.",
+   "juist": false,
+   "uitleg": "Tegenvoorbeeld: x = 5 ⇒ x > 0 klopt, maar x > 0 ⇒ x = 5 niet."
+  },
+  {
+   "type": "wn",
+   "vraag": "Eén tegenvoorbeeld volstaat om aan te tonen dat een implicatie niet klopt.",
+   "juist": true,
+   "uitleg": "Een implicatie moet altijd kloppen. Eén uitzondering is genoeg om ze te weerleggen."
+  },
+  {
+   "type": "wn",
+   "vraag": "De implicatie 'x ∈ 10ℕ ⇒ x ∈ 5ℕ' klopt.",
+   "juist": true,
+   "uitleg": "Elk veelvoud van 10 is ook een veelvoud van 5."
+  },
+  {
+   "type": "mc",
+   "vraag": "Voor welke twee uitspraken mag je de equivalentiepijl ⇔ gebruiken?",
+   "opties": [
+    "x is even ⇔ x is een veelvoud van 2",
+    "x ∈ ℕ ⇔ x ∈ ℤ",
+    "x > 5 ⇔ x > 8",
+    "x ∈ 10ℕ ⇔ x ∈ 5ℕ"
+   ],
+   "juist": 0,
+   "uitleg": "Bij ⇔ moet de implicatie in beide richtingen kloppen."
+  },
+  {
+   "type": "mc",
+   "vraag": "Voor welke twee uitspraken mag je de equivalentiepijl ⇔ gebruiken?",
+   "opties": [
+    "x heeft precies twee delers ⇔ x is een priemgetal",
+    "x is oneven ⇔ x is een priemgetal",
+    "x ∈ 4ℕ ⇔ x ∈ 8ℕ",
+    "x < 0 ⇔ x = −1"
+   ],
+   "juist": 0,
+   "uitleg": "Een priemgetal heeft precies twee delers en omgekeerd. Bij de andere paren klopt één richting niet."
+  },
+  {
+   "type": "gaten",
+   "vraag": "'Als een getal even is, dan is het een veelvoud van 2' is een ware uitspraak. De omgekeerde uitspraak is ook [[1]]. Daarom mogen we de [[2]] gebruiken.",
+   "antwoorden": [
+    "waar",
+    "equivalentiepijl"
+   ],
+   "extra": [
+    "onwaar",
+    "implicatiepijl"
+   ]
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de stappen in de juiste volgorde om aan te tonen dat een implicatie niet klopt.",
+   "items": [
+    "Kies een getal dat voldoet aan de eerste uitspraak.",
+    "Ga na of dit getal ook voldoet aan de tweede uitspraak.",
+    "Voldoet het niet, dan heb je een tegenvoorbeeld gevonden."
+   ]
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Klopt de implicatie? Antwoord met ja of nee.",
+   "velden": [
+    {
+     "label": "x > 20 ⇒ x > 15",
+     "antwoorden": [
+      "ja"
+     ]
+    },
+    {
+     "label": "x ∈ ℤ ⇒ x ∈ ℕ",
+     "antwoorden": [
+      "nee",
+      "neen"
+     ]
+    },
+    {
+     "label": "x ∈ ℕ ⇒ x ∈ ℚ",
+     "antwoorden": [
+      "ja"
+     ]
+    },
+    {
+     "label": "x ∈ 9ℕ ⇒ x ∈ 3ℕ",
+     "antwoorden": [
+      "ja"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "wn",
+   "vraag": "De implicatie 'x = 3 ⇒ x < 5' klopt.",
+   "juist": true,
+   "uitleg": "Als x gelijk is aan 3, dan is x zeker kleiner dan 5."
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel van deze vier implicaties kloppen?\n(1) x ∈ 12ℕ ⇒ x ∈ 6ℕ\n(2) x ∈ 6ℕ ⇒ x ∈ 12ℕ\n(3) x ∈ 12ℕ ⇒ x ∈ 4ℕ\n(4) x ∈ 4ℕ ⇒ x ∈ 12ℕ",
+   "antwoorden": [
+    "2"
+   ],
+   "uitleg": "Elk veelvoud van 12 is ook een veelvoud van 6 en van 4. Dus (1) en (3) kloppen. (2) en (4) niet: bijvoorbeeld x = 6 en x = 4.",
+   "uitdaging": true
+  }
+ ]
+}

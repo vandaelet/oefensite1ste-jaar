@@ -1,0 +1,244 @@
+{
+ "titel": "6.1 Breuken vereenvoudigen",
+ "intro": "Vereenvoudig breuken door teller en noemer door hun ggd te delen.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Wat betekent het vereenvoudigen van een breuk?",
+   "opties": [
+    "Teller en noemer door hetzelfde getal delen, zodat je een gelijkwaardige breuk met kleinere getallen krijgt",
+    "Teller en noemer met hetzelfde getal vermenigvuldigen",
+    "Enkel de teller door een getal delen",
+    "Teller en noemer met elkaar omwisselen"
+   ],
+   "juist": 0,
+   "uitleg": "De waarde van de breuk verandert niet."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vereenvoudig {12/30}. Noteer je antwoord met een schuine streep, bijvoorbeeld 3/4.",
+   "antwoorden": [
+    "2/5"
+   ],
+   "uitleg": "Deel teller en noemer door 6: {12/30} = {2/5}."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Vereenvoudig zo ver mogelijk. Noteer je antwoorden als 3/4.",
+   "velden": [
+    {
+     "label": "{18/30} =",
+     "antwoorden": [
+      "3/5"
+     ]
+    },
+    {
+     "label": "{35/49} =",
+     "antwoorden": [
+      "5/7"
+     ]
+    },
+    {
+     "label": "{16/40} =",
+     "antwoorden": [
+      "2/5"
+     ]
+    },
+    {
+     "label": "{60/90} =",
+     "antwoorden": [
+      "2/3"
+     ]
+    }
+   ],
+   "uitleg": "Deel teller en noemer door de ggd: 6, 7, 8 en 30."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vereenvoudig {28/48}.",
+   "antwoorden": [
+    "7/12"
+   ],
+   "uitleg": "Deel door 4: {7/12}. 7 en 12 hebben geen gemeenschappelijke deler meer."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke breuk is onvereenvoudigbaar?",
+   "opties": [
+    "{7/12}",
+    "{6/9}",
+    "{10/15}",
+    "{14/21}"
+   ],
+   "juist": 0,
+   "uitleg": "De teller en de noemer van {7/12} hebben enkel 1 als gemeenschappelijke deler."
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke breuken zijn gelijk aan {2/3}?",
+   "opties": [
+    "{4/6}",
+    "{10/15}",
+    "{20/30}",
+    "{3/4}",
+    "{5/6}",
+    "{8/9}"
+   ],
+   "juist": [
+    0,
+    1,
+    2
+   ],
+   "uitleg": "Vereenvoudig elke breuk en kijk of je {2/3} overhoudt."
+  },
+  {
+   "type": "indeel",
+   "vraag": "Is de breuk onvereenvoudigbaar?",
+   "categorieen": [
+    "Onvereenvoudigbaar",
+    "Kan vereenvoudigd worden"
+   ],
+   "items": [
+    [
+     "{5/8}",
+     0
+    ],
+    [
+     "{12/18}",
+     1
+    ],
+    [
+     "{9/10}",
+     0
+    ],
+    [
+     "{14/21}",
+     1
+    ],
+    [
+     "{11/15}",
+     0
+    ],
+    [
+     "{20/50}",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke breuk aan haar onvereenvoudigbare vorm.",
+   "paren": [
+    [
+     "{12/18}",
+     "{2/3}"
+    ],
+    [
+     "{14/35}",
+     "{2/5}"
+    ],
+    [
+     "{9/12}",
+     "{3/4}"
+    ],
+    [
+     "{50/100}",
+     "{1/2}"
+    ],
+    [
+     "{16/48}",
+     "{1/3}"
+    ]
+   ]
+  },
+  {
+   "type": "wn",
+   "vraag": "Als je een breuk vereenvoudigt, verandert de waarde van de breuk niet.",
+   "juist": true,
+   "uitleg": "Je deelt teller en noemer door hetzelfde getal."
+  },
+  {
+   "type": "wn",
+   "vraag": "{6/9} is een onvereenvoudigbare breuk.",
+   "juist": false,
+   "uitleg": "Teller en noemer zijn allebei deelbaar door 3: {6/9} = {2/3}."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Om een breuk te vereenvoudigen, deel je [[1]] en [[2]] door dezelfde gemeenschappelijke [[3]].",
+   "antwoorden": [
+    "teller",
+    "noemer",
+    "deler"
+   ],
+   "extra": [
+    "veelvoud",
+    "som"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Door welk getal deel je teller en noemer om {42/56} in één keer zo ver mogelijk te vereenvoudigen?",
+   "antwoorden": [
+    "14"
+   ],
+   "uitleg": "Dat is de ggd van 42 en 56."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vereenvoudig {200/600}.",
+   "antwoorden": [
+    "1/3"
+   ],
+   "uitleg": "Schrap eerst twee nullen: {2/6}. Deel dan door 2."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vereenvoudig {84/126}.",
+   "antwoorden": [
+    "2/3"
+   ],
+   "uitleg": "ggd (84, 126) = 42. Dus {84/126} = {2/3}."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de breuken van klein naar groot. Vereenvoudig eerst.",
+   "items": [
+    "{4/16}",
+    "{6/12}",
+    "{12/16}",
+    "{5/5}"
+   ],
+   "uitleg": "{4/16} = {1/4}, {6/12} = {1/2}, {12/16} = {3/4} en {5/5} = 1."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke gelijkheid is juist?",
+   "opties": [
+    "{15/25} = {3/5}",
+    "{15/25} = {5/3}",
+    "{15/25} = {1/5}",
+    "{15/25} = {3/4}"
+   ],
+   "juist": 0,
+   "uitleg": "Deel teller en noemer door 5."
+  },
+  {
+   "type": "invul",
+   "vraag": "In een klas van 24 leerlingen zijn er 18 meisjes. Welk deel van de klas zijn meisjes? Vereenvoudig je antwoord, bijvoorbeeld 3/4.",
+   "antwoorden": [
+    "3/4"
+   ],
+   "uitleg": "{18/24} = {3/4}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Vereenvoudig {462/630}.",
+   "antwoorden": [
+    "11/15"
+   ],
+   "uitleg": "ggd (462, 630) = 42. Ontbind eventueel: 462 = 2 · 3 · 7 · 11 en 630 = 2 · 3 · 3 · 5 · 7. Schrap 2, 3 en 7.",
+   "uitdaging": true
+  }
+ ]
+}

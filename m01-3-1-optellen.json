@@ -1,0 +1,209 @@
+{
+ "titel": "3.1 Optellen van natuurlijke getallen",
+ "intro": "Oefen op termen, som en het optellen van grote getallen, uit het hoofd en met cijferen.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "In 36 + 52 = 88 is 88 de …",
+   "opties": [
+    "som",
+    "term",
+    "verschil",
+    "product"
+   ],
+   "juist": 0,
+   "uitleg": "Het resultaat van een optelling heet de som."
+  },
+  {
+   "type": "mc",
+   "vraag": "In 36 + 52 = 88 zijn 36 en 52 de …",
+   "opties": [
+    "termen",
+    "factoren",
+    "aftrekkers",
+    "delers"
+   ],
+   "juist": 0,
+   "uitleg": "De getallen die je optelt, heten termen."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Bij een optelling noem je de getallen die je optelt de [[1]] en het resultaat de [[2]].",
+   "antwoorden": [
+    "termen",
+    "som"
+   ],
+   "extra": [
+    "verschil",
+    "factoren"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken uit het hoofd: 168 + 22",
+   "antwoorden": [
+    "190"
+   ],
+   "uitleg": "168 + 2 = 170 en dan nog 20 erbij."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken.",
+   "velden": [
+    {
+     "label": "47 + 38 =",
+     "antwoorden": [
+      "85"
+     ]
+    },
+    {
+     "label": "250 + 175 =",
+     "antwoorden": [
+      "425"
+     ]
+    },
+    {
+     "label": "1 250 + 750 =",
+     "antwoorden": [
+      "2000"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken door onder elkaar te schrijven: 6 485 + 2 738",
+   "antwoorden": [
+    "9223"
+   ],
+   "uitleg": "Tel eenheden bij eenheden, tientallen bij tientallen, enzovoort. Vergeet de onthouden getallen niet."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een bibliotheek heeft 1 245 romans en 873 stripverhalen. Hoeveel boeken zijn dat samen?",
+   "antwoorden": [
+    "2118"
+   ],
+   "uitleg": "1 245 + 873 = 2 118.",
+   "eenheid": "boeken"
+  },
+  {
+   "type": "wn",
+   "vraag": "De som van twee natuurlijke getallen is altijd een natuurlijk getal.",
+   "juist": true,
+   "uitleg": "Natuurlijke getallen tel je op zonder ooit een negatief getal of een komma te krijgen."
+  },
+  {
+   "type": "wn",
+   "vraag": "25 + 47 = 47 + 25",
+   "juist": true,
+   "uitleg": "De volgorde van de termen maakt niet uit."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke som is juist?",
+   "opties": [
+    "3 275 + 1 648 = 4 923",
+    "3 275 + 1 648 = 4 913",
+    "3 275 + 1 648 = 4 823",
+    "3 275 + 1 648 = 5 923"
+   ],
+   "juist": 0,
+   "uitleg": "Controleer met een schatting: 3 300 + 1 650 is ongeveer 4 950."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de sommen van klein naar groot.",
+   "items": [
+    "45 + 45",
+    "99 + 2",
+    "120 + 80",
+    "300 + 15"
+   ],
+   "uitleg": "Bereken eerst elke som: 90, 101, 200 en 315."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke optelling aan haar som.",
+   "paren": [
+    [
+     "250 + 150",
+     "400"
+    ],
+    [
+     "999 + 1",
+     "1 000"
+    ],
+    [
+     "64 + 36",
+     "100"
+    ],
+    [
+     "125 + 375",
+     "500"
+    ]
+   ],
+   "extra": [
+    "450"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken handig: 25 + 36 + 75 + 64",
+   "antwoorden": [
+    "200"
+   ],
+   "uitleg": "Groepeer slim: 25 + 75 = 100 en 36 + 64 = 100. Samen 200."
+  },
+  {
+   "type": "invul",
+   "vraag": "In een trein zitten in drie wagons 63, 75 en 57 reizigers. Hoeveel reizigers zijn dat in totaal?",
+   "antwoorden": [
+    "195"
+   ],
+   "uitleg": "63 + 57 = 120 en dan nog 75 erbij.",
+   "eenheid": "reizigers"
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken.",
+   "velden": [
+    {
+     "label": "1 234 + 4 321 =",
+     "antwoorden": [
+      "5555"
+     ]
+    },
+    {
+     "label": "9 999 + 1 =",
+     "antwoorden": [
+      "10000"
+     ]
+    },
+    {
+     "label": "2 508 + 3 492 =",
+     "antwoorden": [
+      "6000"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul aan: 458 + ? = 1 000",
+   "antwoorden": [
+    "542"
+   ],
+   "uitleg": "1 000 − 458 = 542."
+  },
+  {
+   "type": "invul",
+   "vraag": "Twee opeenvolgende natuurlijke getallen hebben als som 2 023. Wat is het kleinste van die twee getallen?",
+   "antwoorden": [
+    "1011"
+   ],
+   "uitleg": "Als het kleinste getal x is, dan is het andere x + 1. De som is 2x + 1 = 2 023. Dus 2x = 2 022 en x = 1 011.",
+   "uitdaging": true
+  }
+ ]
+}

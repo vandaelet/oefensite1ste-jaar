@@ -1,0 +1,315 @@
+{
+ "titel": "Signaaloefeningen",
+ "intro": "Test of je de hele module beheerst. Deze reeks bevat vragen over alle onderdelen.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "In het getal 845 067 is 4 het cijfer van de …",
+   "opties": [
+    "tienduizendtallen",
+    "duizendtallen",
+    "honderdduizendtallen",
+    "honderdtallen"
+   ],
+   "juist": 0,
+   "uitleg": "845 067 = 8 honderdduizendtallen + 4 tienduizendtallen + 5 duizendtallen + 0 honderdtallen + 6 tientallen + 7 eenheden."
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het grootste natuurlijke getal van vier cijfers, waarvan alle cijfers verschillend zijn?",
+   "antwoorden": [
+    "9876"
+   ],
+   "uitleg": "Kies telkens het grootste cijfer dat nog niet gebruikt is: 9, 8, 7, 6."
+  },
+  {
+   "type": "multi",
+   "vraag": "Welke uitspraken zijn waar?",
+   "opties": [
+    "0,45 > 0,4",
+    "−3 < −1",
+    "{1/2} = 0,5",
+    "300 ≥ 300",
+    "0,08 > 0,3",
+    "4,10 < 4,01",
+    "−7 > −2"
+   ],
+   "juist": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "uitleg": "Vergelijk zorgvuldig. Bij negatieve getallen is het getal het kleinst dat het verst van 0 ligt."
+  },
+  {
+   "type": "indeel",
+   "vraag": "In welke verzameling zit het getal? Kies de kleinste verzameling.",
+   "categorieen": [
+    "ℕ",
+    "ℤ maar niet ℕ",
+    "ℚ maar niet ℤ"
+   ],
+   "items": [
+    [
+     "14",
+     0
+    ],
+    [
+     "−6",
+     1
+    ],
+    [
+     "{3/4}",
+     2
+    ],
+    [
+     "0",
+     0
+    ],
+    [
+     "−2,5",
+     2
+    ],
+    [
+     "1 000",
+     0
+    ]
+   ]
+  },
+  {
+   "type": "gaten",
+   "vraag": "5 [[1]] ℕ, −5 [[2]] ℕ, ℕ [[3]] ℤ en ℤ [[4]] ℕ.",
+   "antwoorden": [
+    "∈",
+    "∉",
+    "⊂",
+    "⊄"
+   ]
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke term aan zijn betekenis.",
+   "paren": [
+    [
+     "de som",
+     "het resultaat van een optelling"
+    ],
+    [
+     "het verschil",
+     "het resultaat van een aftrekking"
+    ],
+    [
+     "het product",
+     "het resultaat van een vermenigvuldiging"
+    ],
+    [
+     "het quotiënt",
+     "het resultaat van een deling"
+    ]
+   ]
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken.",
+   "velden": [
+    {
+     "label": "4 807 + 1 693 =",
+     "antwoorden": [
+      "6500"
+     ]
+    },
+    {
+     "label": "5 000 − 2 375 =",
+     "antwoorden": [
+      "2625"
+     ]
+    },
+    {
+     "label": "48 · 25 =",
+     "antwoorden": [
+      "1200"
+     ]
+    },
+    {
+     "label": "1 456 : 8 =",
+     "antwoorden": [
+      "182"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Een bakker verpakt 9 000 koekjes in dozen van 75 koekjes. Hoeveel dozen zijn dat?",
+   "antwoorden": [
+    "120"
+   ],
+   "uitleg": "9 000 : 75 = 120.",
+   "eenheid": "dozen"
+  },
+  {
+   "type": "invul",
+   "vraag": "Een zaal heeft 260 stoelen met elk 4 poten. Op elke poot komt een dopje van 2 euro. Hoeveel euro kosten alle dopjes samen?",
+   "antwoorden": [
+    "2080"
+   ],
+   "uitleg": "Aantal poten: 260 · 4 = 1 040. Kost: 1 040 · 2 = 2 080.",
+   "eenheid": "euro"
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk getal aan zijn delers.",
+   "paren": [
+    [
+     "del 12",
+     "{1, 2, 3, 4, 6, 12}"
+    ],
+    [
+     "del 15",
+     "{1, 3, 5, 15}"
+    ],
+    [
+     "del 18",
+     "{1, 2, 3, 6, 9, 18}"
+    ],
+    [
+     "del 16",
+     "{1, 2, 4, 8, 16}"
+    ]
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Ontbind 84 in priemfactoren, van klein naar groot.",
+   "antwoorden": [
+    "2 · 2 · 3 · 7"
+   ],
+   "uitleg": "84 : 2 = 42, 42 : 2 = 21, 21 : 3 = 7, 7 : 7 = 1."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bepaal.",
+   "velden": [
+    {
+     "label": "kgv (9, 12) =",
+     "antwoorden": [
+      "36"
+     ]
+    },
+    {
+     "label": "ggd (9, 12) =",
+     "antwoorden": [
+      "3"
+     ]
+    },
+    {
+     "label": "ggd (28, 42) =",
+     "antwoorden": [
+      "14"
+     ]
+    },
+    {
+     "label": "kgv (6, 10) =",
+     "antwoorden": [
+      "30"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Een blauw lichtje knippert om de 6 seconden en een geel lichtje om de 8 seconden. Nu knipperen ze samen. Na hoeveel seconden knipperen ze opnieuw samen?",
+   "antwoorden": [
+    "24"
+   ],
+   "uitleg": "Zoek het kgv van 6 en 8.",
+   "eenheid": "seconden"
+  },
+  {
+   "type": "invul",
+   "vraag": "Miel legt in een kamer van 240 cm bij 180 cm vierkante tegels. De tegels zijn zo groot mogelijk en worden niet gesneden. Hoe lang is de zijde van een tegel?",
+   "antwoorden": [
+    "60"
+   ],
+   "uitleg": "Zoek de ggd van 240 en 180.",
+   "eenheid": "cm"
+  },
+  {
+   "type": "mc",
+   "vraag": "Wat is del 12 ∩ del 30?",
+   "opties": [
+    "{1, 2, 3, 6}",
+    "{1, 2, 3, 4, 6, 12}",
+    "{6}",
+    "{1, 2, 3, 5, 6}"
+   ],
+   "juist": 0,
+   "uitleg": "del 12 = {1, 2, 3, 4, 6, 12} en del 30 = {1, 2, 3, 5, 6, 10, 15, 30}. De gemeenschappelijke delers zijn {1, 2, 3, 6}."
+  },
+  {
+   "type": "invul",
+   "vraag": "Noteer del 12 \\ del 30 van klein naar groot, gescheiden door komma's.",
+   "antwoorden": [
+    "4,12"
+   ],
+   "uitleg": "Delers van 12 die geen deler van 30 zijn: 4 en 12."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke implicatie klopt niet?",
+   "opties": [
+    "x ∈ ℤ ⇒ x ∈ ℕ",
+    "x > 8 ⇒ x > 3",
+    "x ∈ 8ℕ ⇒ x ∈ 4ℕ",
+    "x ∈ ℕ ⇒ x ∈ ℚ"
+   ],
+   "juist": 0,
+   "uitleg": "Tegenvoorbeeld: x = −2 is een geheel getal maar geen natuurlijk getal."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken en noteer je antwoord als 3/4.",
+   "velden": [
+    {
+     "label": "{5/6} − {1/4} =",
+     "antwoorden": [
+      "7/12"
+     ]
+    },
+    {
+     "label": "{7/10} + {4/15} =",
+     "antwoorden": [
+      "29/30"
+     ]
+    },
+    {
+     "label": "Vereenvoudig {24/36} =",
+     "antwoorden": [
+      "2/3"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de breuken van klein naar groot.",
+   "items": [
+    "{1/3}",
+    "{3/8}",
+    "{5/12}",
+    "{1/2}",
+    "{2/3}"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Welk getal tussen 50 en 100 is een veelvoud van 8, van 12 en van 9?",
+   "antwoorden": [
+    "72"
+   ],
+   "uitleg": "kgv (8, 12, 9) = 72. Het volgende veelvoud is 144, en dat is te groot.",
+   "uitdaging": true
+  }
+ ]
+}

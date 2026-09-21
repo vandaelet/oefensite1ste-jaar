@@ -1,0 +1,215 @@
+{
+ "titel": "3.3 Vermenigvuldigen van natuurlijke getallen",
+ "intro": "Oefen op factoren en product, het maalteken en het vermenigvuldigen van grote getallen.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "In 6 · 12 = 72 is 72 het …",
+   "opties": [
+    "product",
+    "som",
+    "verschil",
+    "quotiënt"
+   ],
+   "juist": 0,
+   "uitleg": "Het resultaat van een vermenigvuldiging heet het product."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk maalteken gebruik je in de wiskundeles?",
+   "opties": [
+    "het gecentreerde punt ·",
+    "de letter x",
+    "het sterretje *",
+    "het plusteken +"
+   ],
+   "juist": 0,
+   "uitleg": "In de wiskunde schrijven we 6 · 12. De letter x gebruiken we voor onbekende getallen."
+  },
+  {
+   "type": "gaten",
+   "vraag": "De getallen die je vermenigvuldigt, heten [[1]] en het resultaat heet het [[2]].",
+   "antwoorden": [
+    "factoren",
+    "product"
+   ],
+   "extra": [
+    "termen",
+    "som"
+   ]
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken uit het hoofd.",
+   "velden": [
+    {
+     "label": "9 · 4 =",
+     "antwoorden": [
+      "36"
+     ]
+    },
+    {
+     "label": "7 · 8 =",
+     "antwoorden": [
+      "56"
+     ]
+    },
+    {
+     "label": "12 · 6 =",
+     "antwoorden": [
+      "72"
+     ]
+    },
+    {
+     "label": "15 · 4 =",
+     "antwoorden": [
+      "60"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Zes dozen bevatten elk 24 potloden. Hoeveel potloden zijn dat in totaal?",
+   "antwoorden": [
+    "144"
+   ],
+   "uitleg": "6 · 24 = 6 · 20 + 6 · 4 = 120 + 24 = 144.",
+   "eenheid": "potloden"
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken door onder elkaar te schrijven: 58 · 23",
+   "antwoorden": [
+    "1334"
+   ],
+   "uitleg": "58 · 3 = 174 en 58 · 20 = 1 160. Samen 1 334."
+  },
+  {
+   "type": "invul",
+   "vraag": "Bereken: 305 · 12",
+   "antwoorden": [
+    "3660"
+   ],
+   "uitleg": "305 · 12 = 3 050 + 610 = 3 660."
+  },
+  {
+   "type": "wn",
+   "vraag": "Vermenigvuldigen is een verkorte schrijfwijze voor herhaald optellen.",
+   "juist": true,
+   "uitleg": "Bijvoorbeeld 4 · 5 = 5 + 5 + 5 + 5."
+  },
+  {
+   "type": "wn",
+   "vraag": "Het product van een natuurlijk getal en 0 is altijd 0.",
+   "juist": true,
+   "uitleg": "n · 0 = 0. Nul keer het getal nemen levert niets op."
+  },
+  {
+   "type": "wn",
+   "vraag": "4 · 9 = 9 · 4",
+   "juist": true,
+   "uitleg": "De volgorde van de factoren mag je omwisselen."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke herhaalde optelling hoort bij 5 · 7?",
+   "opties": [
+    "7 + 7 + 7 + 7 + 7",
+    "5 + 7",
+    "5 + 5 + 5 + 5 + 5 + 5",
+    "7 + 7 + 7 + 7"
+   ],
+   "juist": 0,
+   "uitleg": "5 · 7 betekent 5 keer het getal 7 optellen."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet de producten van klein naar groot.",
+   "items": [
+    "8 · 4",
+    "3 · 12",
+    "6 · 7",
+    "11 · 4",
+    "5 · 9"
+   ],
+   "uitleg": "De producten zijn 42, 45, 32, 44 en 36."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elke vermenigvuldiging aan haar product.",
+   "paren": [
+    [
+     "12 · 5",
+     "60"
+    ],
+    [
+     "25 · 4",
+     "100"
+    ],
+    [
+     "9 · 9",
+     "81"
+    ],
+    [
+     "15 · 15",
+     "225"
+    ]
+   ],
+   "extra": [
+    "90"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Vul aan: 8 · ? = 96",
+   "antwoorden": [
+    "12"
+   ],
+   "uitleg": "96 : 8 = 12."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een cinemazaal heeft 18 rijen met elk 22 zitplaatsen. Hoeveel zitplaatsen zijn er?",
+   "antwoorden": [
+    "396"
+   ],
+   "uitleg": "18 · 22 = 18 · 20 + 18 · 2 = 360 + 36 = 396.",
+   "eenheid": "zitplaatsen"
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Bereken.",
+   "velden": [
+    {
+     "label": "10 · 37 =",
+     "antwoorden": [
+      "370"
+     ]
+    },
+    {
+     "label": "100 · 37 =",
+     "antwoorden": [
+      "3700"
+     ]
+    },
+    {
+     "label": "1 000 · 37 =",
+     "antwoorden": [
+      "37000"
+     ]
+    }
+   ],
+   "uitleg": "Bij 10, 100 en 1 000 komen er 1, 2 of 3 nullen achter het getal."
+  },
+  {
+   "type": "invul",
+   "vraag": "Het product van drie opeenvolgende natuurlijke getallen is 210. Wat is het kleinste van die drie getallen?",
+   "antwoorden": [
+    "5"
+   ],
+   "uitleg": "5 · 6 · 7 = 210. Je kunt ook ontbinden: 210 = 2 · 3 · 5 · 7 en dan zoeken welke getallen daaruit passen.",
+   "uitdaging": true
+  }
+ ]
+}

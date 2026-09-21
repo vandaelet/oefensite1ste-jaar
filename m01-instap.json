@@ -1,0 +1,239 @@
+{
+ "titel": "Instap: getallen in het dagelijks leven",
+ "intro": "Getallen zie je overal. Ontdek welke soorten getallen je al kent.",
+ "vragen": [
+  {
+   "type": "indeel",
+   "vraag": "Deel deze getallen uit het dagelijks leven in.",
+   "categorieen": [
+    "Hele getallen",
+    "Kommagetallen",
+    "Breuken"
+   ],
+   "items": [
+    [
+     "12 eieren",
+     0
+    ],
+    [
+     "€ 2,49",
+     1
+    ],
+    [
+     "{1/4} liter melk",
+     2
+    ],
+    [
+     "48 leerlingen",
+     0
+    ],
+    [
+     "1,85 m",
+     1
+    ],
+    [
+     "{3/4} pizza",
+     2
+    ]
+   ]
+  },
+  {
+   "type": "indeel",
+   "vraag": "Deel deze temperaturen in.",
+   "categorieen": [
+    "Boven 0 (positief)",
+    "Onder 0 (negatief)"
+   ],
+   "items": [
+    [
+     "−5 °C",
+     1
+    ],
+    [
+     "12 °C",
+     0
+    ],
+    [
+     "−18 °C",
+     1
+    ],
+    [
+     "25 °C",
+     0
+    ],
+    [
+     "−2 °C",
+     1
+    ],
+    [
+     "7 °C",
+     0
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "Welke temperatuur is de laagste?",
+   "opties": [
+    "−12 °C",
+    "−2 °C",
+    "0 °C",
+    "5 °C"
+   ],
+   "juist": 0,
+   "uitleg": "Hoe verder onder nul, hoe lager de temperatuur."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een recept voor 4 personen vraagt 200 g meel. Hoeveel gram meel heb je nodig voor 6 personen?",
+   "antwoorden": [
+    "300"
+   ],
+   "uitleg": "Voor 1 persoon: 200 : 4 = 50 g. Voor 6 personen: 6 · 50 = 300 g.",
+   "eenheid": "g"
+  },
+  {
+   "type": "invul",
+   "vraag": "Een recept voor 4 personen vraagt 2 eieren. Hoeveel eieren heb je nodig voor 12 personen?",
+   "antwoorden": [
+    "6"
+   ],
+   "uitleg": "12 personen is 3 keer zoveel als 4 personen. Dus 3 · 2 = 6 eieren."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Een fles water van 6 liter kost € 4,80.",
+   "velden": [
+    {
+     "label": "Prijs van 1 liter:",
+     "antwoorden": [
+      "0,8"
+     ],
+     "eenheid": "euro"
+    },
+    {
+     "label": "Prijs van 3 liter:",
+     "antwoorden": [
+      "2,4"
+     ],
+     "eenheid": "euro"
+    }
+   ],
+   "uitleg": "1 liter: 4,80 : 6 = 0,80. Drie liter: 3 · 0,80 = 2,40."
+  },
+  {
+   "type": "invul",
+   "vraag": "Een flatgebouw is 30 m hoog. Elke verdieping is ongeveer 3 m hoog. Hoeveel verdiepingen heeft het gebouw ongeveer?",
+   "antwoorden": [
+    "10"
+   ],
+   "uitleg": "30 : 3 = 10 verdiepingen."
+  },
+  {
+   "type": "wn",
+   "vraag": "Een breuk zoals {1/2} is ook een getal.",
+   "juist": true,
+   "uitleg": "Breuken zijn getallen: {1/2} = 0,5."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk getal is het grootste?",
+   "opties": [
+    "0,9",
+    "0,75",
+    "0,095",
+    "0,8"
+   ],
+   "juist": 0,
+   "uitleg": "Vergelijk de tienden: 0,9 heeft 9 tienden en de andere getallen hebben minder."
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet deze tijden van vroeg naar laat.",
+   "items": [
+    "08:45",
+    "10:15",
+    "13:50",
+    "18:05",
+    "23:30"
+   ],
+   "uitleg": "Vergelijk eerst het uur en dan de minuten."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk getal aan de juiste omschrijving.",
+   "paren": [
+    [
+     "−7",
+     "een negatief getal"
+    ],
+    [
+     "0,25",
+     "een kommagetal"
+    ],
+    [
+     "{2/3}",
+     "een breuk"
+    ],
+    [
+     "15%",
+     "een percentage"
+    ],
+    [
+     "42",
+     "een natuurlijk getal"
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "In een winkel krijg je 25% korting op een jas van € 40. Hoeveel euro is de korting?",
+   "opties": [
+    "€ 10",
+    "€ 25",
+    "€ 15",
+    "€ 30"
+   ],
+   "juist": 0,
+   "uitleg": "25% is een vierde. 40 : 4 = 10."
+  },
+  {
+   "type": "invul",
+   "vraag": "1 euro is 1,10 dollar waard. Hoeveel dollar krijg je voor 50 euro?",
+   "antwoorden": [
+    "55"
+   ],
+   "uitleg": "50 · 1,10 = 55 dollar.",
+   "eenheid": "dollar"
+  },
+  {
+   "type": "wn",
+   "vraag": "Een digitale klok toont 13:50. Dat is hetzelfde moment als tien voor twee in de namiddag.",
+   "juist": true,
+   "uitleg": "13:50 is 1:50 in de namiddag, en dat is tien voor twee."
+  },
+  {
+   "type": "gaten",
+   "vraag": "Getallen zonder komma noem je [[1]] getallen. Een getal met een minteken ervoor is [[2]]. Het getal 0,25 is een [[3]].",
+   "antwoorden": [
+    "hele",
+    "negatief",
+    "kommagetal"
+   ],
+   "extra": [
+    "breuk",
+    "procent"
+   ]
+  },
+  {
+   "type": "invul",
+   "vraag": "Ella spaart 8 weken lang elke week € 7,50. Daarna geeft ze een derde van haar spaargeld aan een goed doel. Hoeveel euro houdt ze over?",
+   "antwoorden": [
+    "40"
+   ],
+   "uitleg": "8 · 7,50 = 60 euro. Een derde is 20 euro. 60 − 20 = 40 euro.",
+   "uitdaging": true,
+   "eenheid": "euro"
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "titel": "1.2 Ons talstelsel",
+ "intro": "Ontdek hoe ons tiendelig positiestelsel werkt: cijfers, plaatswaarde en getallen vormen.",
+ "vragen": [
+  {
+   "type": "mc",
+   "vraag": "Met welke cijfers schrijven we alle getallen in het tiendelig stelsel?",
+   "opties": [
+    "0, 1, 2, 3, 4, 5, 6, 7, 8 en 9",
+    "1, 2, 3, 4, 5, 6, 7, 8, 9 en 10",
+    "0 en 1",
+    "0, 5 en 10"
+   ],
+   "juist": 0,
+   "uitleg": "Ons stelsel gebruikt 10 cijfers. Daarmee kun je oneindig veel getallen maken."
+  },
+  {
+   "type": "wn",
+   "vraag": "Het getal 3 045 bestaat uit vier cijfers.",
+   "juist": true,
+   "uitleg": "De cijfers zijn 3, 0, 4 en 5."
+  },
+  {
+   "type": "invul",
+   "vraag": "Hoeveel cijfers heeft het getal 40 918?",
+   "antwoorden": [
+    "5"
+   ],
+   "uitleg": "De cijfers zijn 4, 0, 9, 1 en 8."
+  },
+  {
+   "type": "mc",
+   "vraag": "In het getal 63 412 is 6 het cijfer van de …",
+   "opties": [
+    "tienduizendtallen",
+    "duizendtallen",
+    "honderdtallen",
+    "honderdduizendtallen"
+   ],
+   "juist": 0,
+   "uitleg": "63 412 = 6 tienduizendtallen + 3 duizendtallen + 4 honderdtallen + 1 tiental + 2 eenheden."
+  },
+  {
+   "type": "invul",
+   "vraag": "In het getal 8 351 heeft het cijfer 3 de waarde van …",
+   "antwoorden": [
+    "300"
+   ],
+   "uitleg": "3 staat bij de honderdtallen: 3 · 100 = 300."
+  },
+  {
+   "type": "mc",
+   "vraag": "In het getal 29,764 is 7 het cijfer van de …",
+   "opties": [
+    "tienden",
+    "honderdsten",
+    "tientallen",
+    "duizendsten"
+   ],
+   "juist": 0,
+   "uitleg": "Na de komma komen de tienden (7), honderdsten (6) en duizendsten (4)."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Noteer de waarde van het cijfer 5 in elk getal.",
+   "velden": [
+    {
+     "label": "5 in 4 507:",
+     "antwoorden": [
+      "500"
+     ]
+    },
+    {
+     "label": "5 in 12,53:",
+     "antwoorden": [
+      "0,5"
+     ]
+    },
+    {
+     "label": "5 in 0,045:",
+     "antwoorden": [
+      "0,005"
+     ]
+    }
+   ],
+   "uitleg": "In 4 507 staat 5 bij de honderdtallen, in 12,53 bij de tienden en in 0,045 bij de duizendsten."
+  },
+  {
+   "type": "gaten",
+   "vraag": "In het getal 372,58 is 3 het cijfer van de [[1]], 7 van de [[2]], 2 van de [[3]], 5 van de [[4]] en 8 van de [[5]].",
+   "antwoorden": [
+    "honderdtallen",
+    "tientallen",
+    "eenheden",
+    "tienden",
+    "honderdsten"
+   ],
+   "extra": [
+    "duizendtallen"
+   ]
+  },
+  {
+   "type": "sorteer",
+   "vraag": "Zet deze getallen van klein naar groot.",
+   "items": [
+    "3,04",
+    "3,4",
+    "3,404",
+    "3,44"
+   ],
+   "uitleg": "Schrijf ze met evenveel cijfers na de komma: 3,040 / 3,400 / 3,404 / 3,440."
+  },
+  {
+   "type": "invul",
+   "vraag": "Schrijf als getal: 4 honderdtallen, 0 tientallen, 7 eenheden en 3 tienden.",
+   "antwoorden": [
+    "407,3"
+   ],
+   "uitleg": "400 + 0 + 7 + 0,3 = 407,3."
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk getal heeft 5 duizendtallen, 0 honderdtallen, 2 tientallen en 9 eenheden?",
+   "opties": [
+    "5 029",
+    "5 209",
+    "5 920",
+    "529"
+   ],
+   "juist": 0,
+   "uitleg": "5 000 + 0 + 20 + 9 = 5 029."
+  },
+  {
+   "type": "wn",
+   "vraag": "In het getal 3 030 hebben beide cijfers 3 dezelfde waarde.",
+   "juist": false,
+   "uitleg": "Het eerste 3 staat bij de duizendtallen (3 000), het tweede bij de tientallen (30). De plaats bepaalt de waarde."
+  },
+  {
+   "type": "meerinvul",
+   "vraag": "Vorm getallen van drie cijfers met de cijfers 4, 0 en 7. Gebruik elk cijfer één keer. Een getal mag niet met 0 beginnen.",
+   "velden": [
+    {
+     "label": "Het kleinste getal:",
+     "antwoorden": [
+      "407"
+     ]
+    },
+    {
+     "label": "Het grootste getal:",
+     "antwoorden": [
+      "740"
+     ]
+    }
+   ],
+   "uitleg": "Kleinste: begin met het kleinste cijfer dat niet 0 is (4), dan 0, dan 7. Grootste: 7, 4, 0."
+  },
+  {
+   "type": "koppel",
+   "vraag": "Koppel elk cijfer van het getal 5 284,61 aan zijn plaats.",
+   "paren": [
+    [
+     "het cijfer 5",
+     "duizendtallen"
+    ],
+    [
+     "het cijfer 2",
+     "honderdtallen"
+    ],
+    [
+     "het cijfer 8",
+     "tientallen"
+    ],
+    [
+     "het cijfer 4",
+     "eenheden"
+    ],
+    [
+     "het cijfer 6",
+     "tienden"
+    ],
+    [
+     "het cijfer 1",
+     "honderdsten"
+    ]
+   ]
+  },
+  {
+   "type": "indeel",
+   "vraag": "Is het getal groter of kleiner dan 1 000?",
+   "categorieen": [
+    "Groter dan 1 000",
+    "Kleiner dan 1 000"
+   ],
+   "items": [
+    [
+     "10 000",
+     0
+    ],
+    [
+     "999",
+     1
+    ],
+    [
+     "1 001",
+     0
+    ],
+    [
+     "899",
+     1
+    ],
+    [
+     "12 500",
+     0
+    ],
+    [
+     "99,9",
+     1
+    ]
+   ]
+  },
+  {
+   "type": "mc",
+   "vraag": "Welk cijfer staat op de plaats van de honderdsten in 0,306?",
+   "opties": [
+    "0",
+    "3",
+    "6",
+    "Er staat geen cijfer"
+   ],
+   "juist": 0,
+   "uitleg": "Na de komma: 3 tienden, 0 honderdsten en 6 duizendsten."
+  },
+  {
+   "type": "wn",
+   "vraag": "Ons talstelsel heet ook het decimaal stelsel.",
+   "juist": true,
+   "uitleg": "Tiendelig en decimaal betekenen hetzelfde."
+  },
+  {
+   "type": "invul",
+   "vraag": "Wat is het kleinste getal van vier cijfers waarvan alle cijfers verschillend zijn en de som van de cijfers 10 is?",
+   "antwoorden": [
+    "1027"
+   ],
+   "uitleg": "Begin met 1 bij de duizendtallen, dan 0. De twee laatste cijfers hebben som 9 en zijn verschillend en niet 0 of 1: het kleinste is 2 en 7. Het getal is 1 027.",
+   "uitdaging": true
+  }
+ ]
+}
