@@ -549,3 +549,118 @@ a:focus-visible, button:focus-visible, .invul input:focus-visible, .veld input:f
 .gaten-tekst { font-weight: 700; line-height: 2.9; }
 .gat { display: inline-block; vertical-align: middle; line-height: 1.2; margin: 0 0.15rem; }
 .zone-gat { display: inline-flex; min-width: 6rem; min-height: 2.7rem; }
+
+/* Tabbladen op de leerkrachtenpagina */
+
+.tabbladen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid var(--blad-rand);
+}
+
+.tabblad {
+  font: inherit;
+  font-weight: 700;
+  padding: 0.55rem 0.9rem;
+  color: var(--inkt-zacht);
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+
+.tabblad:hover { color: var(--inkt); }
+.tabblad.actief { color: var(--blauw); border-bottom-color: var(--blauw); }
+
+/* Zoekveld */
+
+.zoekveld {
+  flex: 1;
+  min-width: 12rem;
+  font: inherit;
+  padding: 0.55rem 0.8rem;
+  border: 2px solid var(--blad-rand);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--inkt);
+}
+
+.zoekveld:focus { outline: none; border-color: var(--blauw); }
+
+/* Resultatentabel */
+
+.tabel-omhulsel { overflow-x: auto; margin-top: 0.5rem; }
+
+.tabel {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+}
+
+.tabel th, .tabel td {
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--blad-rand);
+  white-space: nowrap;
+}
+
+.tabel th { font-family: var(--kop); font-weight: 800; color: var(--inkt-zacht); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.02em; }
+.cel-midden { text-align: center; }
+
+.tabel tr.klikbaar { cursor: pointer; }
+.tabel tr.klikbaar:hover, .tabel tr.klikbaar:focus-visible { background: var(--blauw-licht); }
+.tabel tr.klikbaar:focus-visible { outline: 2px solid var(--blauw); outline-offset: -2px; }
+
+.naam-cel { display: block; font-weight: 700; }
+.email-cel { display: block; font-size: 0.85rem; color: var(--inkt-zacht); }
+
+.scorebolletje {
+  display: inline-block;
+  padding: 0.1rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.score-goed { background: var(--juist-licht); color: var(--juist); }
+.score-matig { background: var(--markeer-licht); color: #7a5b00; }
+.score-zwak { background: var(--fout-licht); color: var(--fout); }
+
+/* Op een smal scherm wordt de tabel een lijst van kaarten in plaats van opzij schuiven. */
+@media (max-width: 34rem) {
+  .tabel-omhulsel { overflow-x: visible; }
+  .tabel thead { display: none; }
+  .tabel, .tabel tbody, .tabel tr, .tabel td { display: block; width: 100%; }
+  .tabel tr {
+    margin-bottom: 0.6rem;
+    padding: 0.5rem 0.1rem;
+    border: 1px solid var(--blad-rand);
+    border-radius: 8px;
+    white-space: normal;
+  }
+  .tabel td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.3rem 0.75rem;
+    border-bottom: none;
+    white-space: normal;
+    text-align: right;
+  }
+  .tabel td[data-label]::before {
+    content: attr(data-label);
+    font-weight: 700;
+    font-size: 0.78rem;
+    color: var(--inkt-zacht);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .tabel td:first-child { flex-direction: column; align-items: flex-start; }
+  .tabel td:first-child::before { display: none; }
+  .naam-cel, .email-cel { text-align: left; }
+}
